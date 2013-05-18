@@ -1,0 +1,1212 @@
+TStillOpen
+v7
+r0
+t300774300.195756
+cCheck dependencies
+cProcessInfoPlistFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Info.plist" StillOpen-Info.plist
+cCompileXIB /Users/medearis/Desktop/StillOpen/PlacesList.xib
+cCompileXIB /Users/medearis/Desktop/StillOpen/MainWindow.xib
+cCompileXIB /Users/medearis/Desktop/StillOpen/PlacesDetail.xib
+cCpResource "build/Debug-iphonesimulator/Still Open.app/reviewsFromYelpYLW.gif" reviewsFromYelpYLW.gif
+cCpResource "build/Debug-iphonesimulator/Still Open.app/Powered_By_Yelp_Yellow.png" Powered_By_Yelp_Yellow.png
+cCpResource "build/Debug-iphonesimulator/Still Open.app/headerlogo@2x.png" headerlogo@2x.png
+cCpResource "build/Debug-iphonesimulator/Still Open.app/headerlogo.png" headerlogo.png
+cCpResource "build/Debug-iphonesimulator/Still Open.app/background.png" background.png
+cCpResource "build/Debug-iphonesimulator/Still Open.app/disclosure.png" disclosure.png
+cCpResource "build/Debug-iphonesimulator/Still Open.app/icon.png" icon.png
+cCpResource "build/Debug-iphonesimulator/Still Open.app/icon@2x.png" icon@2x.png
+cProcessPCH /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch.gch StillOpen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/main.o /Users/medearis/Desktop/StillOpen/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/StillOpenAppDelegate.o /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSObject+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSString+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonBase.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonParser.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonWriter.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/BusinessModel.o /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/LocationProvider.o /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesDetailViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesListViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open" normal i386
+cGenerateDSYMFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app.dSYM" "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open"
+cTouch "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C2238AF0000000000000132
+t1277311151
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BFF44C00000000000068F90
+t1275020480
+s429968
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BFF44B600000000000001D0
+t1275020470
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004C04724700000000000002FE
+t1275359815
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004C04725B0000000000160350
+t1275359835
+s1442640
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m
+c000000004C2E0AF60000000000000A79
+t1278085878
+s2681
+i"DataProvider.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/../LocationProvider.m
+c000000004C2E0928000000000000039B
+t1278085416
+s923
+i"LocationProvider.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.h
+c000000004C3A6AD90000000000000447
+t1278896857
+s1095
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m
+c000000004C3A6B69000000000000043A
+t1278897001
+s1082
+i"BusinessModel.h"
+i<MapKit/MapKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/DataProvider.h
+c000000004C35528A000000000000031E
+t1278562954
+s798
+i<Foundation/Foundation.h>
+i"DataReceiver.h"
+i"LocationProvider.h"
+i"LocationReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/DataProvider.m
+c000000004C3A6BA800000000000010CB
+t1278897064
+s4299
+i"DataProvider.h"
+i"JSON/JSON.h"
+i"BusinessModel.h"
+i"DataReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/DataReceiver.h
+c000000004C2E105C0000000000000103
+t1278087260
+s259
+i<UIKit/UIKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/../../DataProvider.m
+c000000004C2E098700000000000000D1
+t1278085511
+s209
+i"DataProvider.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/JSON.h
+c000000004B93BE5E00000000000008F9
+t1267973726
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.h
+c000000004B93BE5E0000000000000A01
+t1267973726
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m
+c000000004B93BE5E000000000000089E
+t1267973726
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.h
+c000000004B93BE5E0000000000000916
+t1267973726
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m
+c000000004B93BE5E000000000000087D
+t1267973726
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.h
+c000000004B93BE5E0000000000000AED
+t1267973726
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m
+c000000004B93BE5E0000000000001ABC
+t1267973726
+s6844
+i"SBJSON.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.h
+c000000004B93BE5E0000000000000B82
+t1267973726
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m
+c000000004B93BE5E0000000000000AC1
+t1267973726
+s2753
+i"SBJsonBase.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.h
+c000000004B93BE5E0000000000000C0B
+t1267973726
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m
+c000000004B93C6A300000000000036D0
+t1267975843
+s14032
+i"SBJsonParser.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.h
+c000000004B93BE5E0000000000001140
+t1267973726
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m
+c000000004B93BE5E0000000000001F26
+t1267973726
+s7974
+i"SBJsonWriter.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.h
+c000000004C3550DE0000000000000386
+t1278562526
+s902
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+i"LocationReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m
+c000000004C35518800000000000005B6
+t1278562696
+s1462
+i<CoreLocation/CoreLocation.h>
+i"LocationProvider.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/LocationReceiver.h
+c000000004C30E9AA0000000000000106
+t1278273962
+s262
+i<UIKit/UIKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.h
+c000000004C3D393C00000000000001F1
+t1279080764
+s497
+i<UIKit/UIKit.h>
+i"DataProvider.h"
+i"DataReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m
+c000000004C3D3955000000000000186E
+t1279080789
+s6254
+i"MainListViewController.h"
+i"BusinessModel.h"
+i"PlacesDetailViewController.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.h
+c000000004C3A634300000000000003E0
+t1278894915
+s992
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"BusinessModel.h"
+i"LocationProvider.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m
+c000000004C3A65350000000000001341
+t1278895413
+s4929
+i"PlacesDetailViewController.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.h
+c000000004C3D39DC00000000000001F0
+t1279080924
+s496
+i<UIKit/UIKit.h>
+i"DataProvider.h"
+i"DataReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m
+c000000004C3D3A9B0000000000001437
+t1279081115
+s5175
+i"PlacesListViewController.h"
+i"BusinessModel.h"
+i"PlacesDetailViewController.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesViewController.h
+c000000004C266F4C00000000000000F4
+t1277587276
+s244
+i<UIKit/UIKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesViewController.m
+c000000004C266F4C0000000000000628
+t1277587276
+s1576
+i"PlacesViewController.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.h
+c000000004C266F790000000000000180
+t1277587321
+s384
+i<UIKit/UIKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m
+c000000004C3A4ADC0000000000000BEA
+t1278888668
+s3050
+i"StillOpenAppDelegate.h"
+i"PlacesListViewController.h"
+
+N/Users/medearis/Desktop/StillOpen/DataProvider.h
+c000000004C2E0ADB0000000000000153
+t1278085851
+s339
+i<Foundation/Foundation.h>
+
+N/Users/medearis/Desktop/StillOpen/DataProvider.m
+c000000004C2E098700000000000000D1
+t1278085511
+s209
+i"DataProvider.h"
+
+N/Users/medearis/Desktop/StillOpen/LocationProvider.h
+c000000004C2E08EF000000000000026E
+t1278085359
+s622
+i<Foundation/Foundation.h>
+
+N/Users/medearis/Desktop/StillOpen/LocationProvider.m
+c000000004C2E08C700000000000000DD
+t1278085319
+s221
+i"LocationProvider.h"
+
+N/Users/medearis/Desktop/StillOpen/MainWindow.xib
+c000000004C2674580000000000004509
+t1277588568
+s17673
+
+N/Users/medearis/Desktop/StillOpen/PlacesDetail.xib
+c000000004C3A6D5F0000000000009AD4
+t1278897503
+s39636
+
+N/Users/medearis/Desktop/StillOpen/PlacesList.xib
+c000000004C3D3C1400000000000076B2
+t1279081492
+s30386
+
+N/Users/medearis/Desktop/StillOpen/Powered_By_Yelp_Yellow.png
+c000000004C32545D0000000000000ADA
+t1278366813
+s2778
+
+N/Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch
+c000000004C2E087300000000000000E2
+t1278085235
+s226
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/medearis/Desktop/StillOpen/background.png
+c000000004C3A590B0000000000002030
+t1278892299
+s8240
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app
+t1279081500
+s544
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app.dSYM
+t1279081500
+s102
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Info.plist
+t1279081497
+s633
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/MainWindow.nib
+t1279081498
+s986
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/PkgInfo
+t1279081497
+s8
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/PlacesDetail.nib
+t1279081498
+s3557
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/PlacesList.nib
+t1279081498
+s2740
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Powered_By_Yelp_Yellow.png
+t1279081498
+s2778
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open
+t1279081500
+s92952
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/background.png
+t1279081498
+s8240
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/disclosure.png
+t1279081498
+s3146
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/headerlogo.png
+t1279081498
+s28691
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/headerlogo@2x.png
+t1279081498
+s73746
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/icon.png
+t1279081498
+s8140
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/icon@2x.png
+t1279081498
+s20499
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/reviewsFromYelpYLW.gif
+t1279081498
+s1385
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app
+t1278897452
+s510
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app.dSYM
+t1278897069
+s102
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/Info.plist
+t1277581111
+s599
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/MainWindow.nib
+t1277588628
+s986
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/PkgInfo
+t1277581111
+s8
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/PlacesDetail.nib
+t1278897452
+s3558
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/PlacesList.nib
+t1278893388
+s1439
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/Powered_By_Yelp_Yellow.png
+t1278367990
+s2778
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/StillOpen
+t1278897069
+s99376
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/background.png
+t1278892316
+s8240
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/disclosure.png
+t1278897451
+s3146
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/disclosure_indicator.jpg
+t1278897314
+s581
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/headerlogo.png
+t1278891173
+s28691
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/headerlogo@2x.png
+t1278891022
+s73746
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/icon.png
+t2
+s0
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/icon@2x.png
+t2
+s0
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/reviewsFromYelpYLW.gif
+t1278367990
+s1385
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/BusinessModel.o
+t1279081499
+s25164
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o
+t1279081499
+s56856
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/LocationProvider.o
+t1279081499
+s16852
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/MainListViewController.o
+t1279080806
+s46420
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSObject+SBJSON.o
+t1279081499
+s8292
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSString+SBJSON.o
+t1279081499
+s8212
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesDetailViewController.o
+t1279081500
+s58348
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesListViewController.o
+t1279081500
+s50536
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesViewController.o
+t1277587324
+s34568
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJSON.o
+t1279081499
+s20076
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonBase.o
+t1279081499
+s13208
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonParser.o
+t1279081499
+s35876
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonWriter.o
+t1279081499
+s25548
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/Still Open.LinkFileList
+c000000004C3D3C1900000000000006AA
+t1279081497
+s1706
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/StillOpen.LinkFileList
+c000000004C325E860000000000000735
+t1278369414
+s1845
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/StillOpenAppDelegate.o
+t1279081499
+s51544
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/main.o
+t1279081499
+s6292
+
+N/Users/medearis/Desktop/StillOpen/disclosure.png
+c000000004C3A6CF10000000000000C4A
+t1278897393
+s3146
+
+N/Users/medearis/Desktop/StillOpen/disclosure_indicator.jpg
+c000000004C3A6BE20000000000000245
+t1278897122
+s581
+
+N/Users/medearis/Desktop/StillOpen/headerlogo.png
+c000000004C3A548E0000000000007013
+t1278891150
+s28691
+
+N/Users/medearis/Desktop/StillOpen/headerlogo@2x.png
+c000000004C3A53DB0000000000012012
+t1278890971
+s73746
+
+N/Users/medearis/Desktop/StillOpen/icon.png
+c000000004C3A6E6B0000000000001FCC
+t1278897771
+s8140
+
+N/Users/medearis/Desktop/StillOpen/icon@2x.png
+c000000004C3A6E570000000000005013
+t1278897751
+s20499
+
+N/Users/medearis/Desktop/StillOpen/main.m
+c000000004C2657240000000000000171
+t1277581092
+s369
+i<UIKit/UIKit.h>
+
+N/Users/medearis/Desktop/StillOpen/reviewsFromYelpYLW.gif
+c000000004C32543E0000000000000569
+t1278366782
+s1385
+
+N/var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-afmujgmrmeorxbbrflpcvjqjozcc/StillOpen_Prefix.pch.gch
+t1277581112
+s15232016
+
+N/var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch.gch
+t1279081499
+s15326480
+
+NStillOpen-Info.plist
+c000000004C3A91750000000000000392
+t1278906741
+s914
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies300774297#300774297#0(0"0(0#1#0"8621220992#0"0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/BusinessModel.o /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.806767
+e300774299.906125
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/BusinessModel.o
+x/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m300774299#300774299#0(0"0(0#0#57"/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m8619697184#1924"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/BusinessModel.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o /Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299778680.770142
+e299778680.822263
+r0
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o
+x/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:10:22: error: JSON/JSON.h: No such file or directory
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m: In function '-[DataProvider sendRequestWithLat:longitude:]':
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:25: warning: 'DataProvider' may not respond to '-getYelpURL:longitude:radius:'
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:25: warning: (Messages without a matching method signature
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:25: warning: will be assumed to return 'id' and accept
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:25: warning: '...' as arguments.)
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m: In function '-[DataProvider connectionDidFinishLoading:]':
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:56: error: 'SBJSON' undeclared (first use in this function)
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:56: error: (Each undeclared identifier is reported only once
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:56: error: for each function it appears in.)
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:56: error: 'json' undeclared (first use in this function)
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:61: warning: no '-message:' method found
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:73: error: 'BusinessModel' undeclared (first use in this function)
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:73: error: 'newBusiness' undeclared (first use in this function)
+o/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:83: error: 'tView' undeclared (first use in this function)
+o{standard input}:368:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000006$pb"
+o{standard input}:368:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:338:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000005$pb"
+o{standard input}:338:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:332:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" minus "L00000000005$pb"
+o{standard input}:332:symbol: "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:303:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000004$pb"
+o{standard input}:303:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:297:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" minus "L00000000004$pb"
+o{standard input}:297:symbol: "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:266:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000003$pb"
+o{standard input}:266:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:263:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000003$pb"
+o{standard input}:263:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression
+o{standard input}:242:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000003$pb"
+o{standard input}:242:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:237:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000003$pb"
+o{standard input}:237:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression
+o{standard input}:160:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:160:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:153:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:153:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:150:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000002$pb"
+o{standard input}:150:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
+o{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:135:non-relocatable subtraction expression, "LC1" minus "L00000000002$pb"
+o{standard input}:135:symbol: "LC1" can't be undefined in a subtraction expression
+o{standard input}:132:non-relocatable subtraction expression, "LC0" minus "L00000000002$pb"
+o{standard input}:132:symbol: "LC0" can't be undefined in a subtraction expression
+o{standard input}:129:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:129:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:125:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"
+o{standard input}:125:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:74:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:69:symbol: "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:54:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
+o{standard input}:54:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol LC0
+o{standard input}:unknown:Undefined local symbol LC1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+lSLF07#2@67"Compile /Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778680#299778680#0(8564"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:10:22: error: JSON/JSON.h: No such file or directory/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m: In function '-[DataProvider sendRequestWithLat:longitude:]':/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:25: warning: 'DataProvider' may not respond to '-getYelpURL:longitude:radius:'/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:25: warning: (Messages without a matching method signature/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:25: warning: will be assumed to return 'id' and accept/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:25: warning: '...' as arguments.)/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m: In function '-[DataProvider connectionDidFinishLoading:]':/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:56: error: 'SBJSON' undeclared (first use in this function)/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:56: error: (Each undeclared identifier is reported only once/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:56: error: for each function it appears in.)/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:56: error: 'json' undeclared (first use in this function)/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:61: warning: no '-message:' method found/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:73: error: 'BusinessModel' undeclared (first use in this function)/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:73: error: 'newBusiness' undeclared (first use in this function)/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m:83: error: 'tView' undeclared (first use in this function){standard input}:368:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000006$pb"{standard input}:368:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:338:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000005$pb"{standard input}:338:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:332:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" minus "L00000000005$pb"{standard input}:332:symbol: "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:303:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000004$pb"{standard input}:303:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:297:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" minus "L00000000004$pb"{standard input}:297:symbol: "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:266:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000003$pb"{standard input}:266:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:263:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_5" minus "L00000000003$pb"{standard input}:263:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_5" can't be undefined in a subtraction expression{standard input}:242:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000003$pb"{standard input}:242:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:237:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_4" minus "L00000000003$pb"{standard input}:237:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_4" can't be undefined in a subtraction expression{standard input}:160:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:160:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:153:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:153:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:150:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L00000000002$pb"{standard input}:150:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:135:non-relocatable subtraction expression, "LC1" minus "L00000000002$pb"{standard input}:135:symbol: "LC1" can't be undefined in a subtraction expression{standard input}:132:non-relocatable subtraction expression, "LC0" minus "L00000000002$pb"{standard input}:132:symbol: "LC0" can't be undefined in a subtraction expression{standard input}:129:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:129:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:125:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000002$pb"{standard input}:125:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:83:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:83:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:77:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:77:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:74:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:69:non-relocatable subtraction expression, "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" minus "L00000000001$pb"{standard input}:69:symbol: "L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:58:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:58:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:54:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"{standard input}:54:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_DataProvider.responseData$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol LC0{standard input}:unknown:Undefined local symbol LC1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_119(4@38"JSON/JSON.h: No such file or directory299778680#0#113#0(6@59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778678#10#0#10#0#28"*: No such file or directory0(22@65"'DataProvider' may not respond to '-getYelpURL:longitude:radius:'299778680#235#139#0(6@59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778678#25#0#25#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)299778680#374#119#0(6@59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778678#25#0#25#0#0"0(4@48"'SBJSON' undeclared (first use in this function)299778680#822#120#0(6@59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778678#56#0#56#0#43"'*' undeclared (first use in this function)0(4@46"'json' undeclared (first use in this function)299778680#1168#118#0(6@59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778678#56#0#56#0#43"'*' undeclared (first use in this function)0(22@27"No '-message:' method found299778680#1286#101#0(6@59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778678#61#0#61#0#19"no '*' method found0(4@55"'BusinessModel' undeclared (first use in this function)299778680#1387#127#0(6@59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778678#73#0#73#0#43"'*' undeclared (first use in this function)0(4@53"'newBusiness' undeclared (first use in this function)299778680#1514#125#0(6@59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778678#73#0#73#0#43"'*' undeclared (first use in this function)0(4@47"'tView' undeclared (first use in this function)299778680#1639#119#0(6@59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m299778678#83#0#83#0#43"'*' undeclared (first use in this function)0(0#0#59"/Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m8612603072#1913"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-generated-files.hmap -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-own-target-headers.hmap -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-all-target-headers.hmap -iquote /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-project-headers.hmap -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/../DataProvider.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o1#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.823096
+e300774299.932833
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o
+x/Users/medearis/Desktop/StillOpen/Classes/DataProvider.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m300774299#300774299#0(0"0(0#0#56"/Users/medearis/Desktop/StillOpen/Classes/DataProvider.m8621554368#1922"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o /Users/medearis/Desktop/StillOpen/Classes/JSON/../../DataProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/DataProvider.o /Users/medearis/Desktop/StillOpen/DataProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/LocationProvider.o /Users/medearis/Desktop/StillOpen/Classes/../LocationProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299778632.138026
+e299778632.202325
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/LocationProvider.o
+x/Users/medearis/Desktop/StillOpen/Classes/../LocationProvider.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/medearis/Desktop/StillOpen/Classes/../LocationProvider.m299778632#299778632#0(0"0(0#0#63"/Users/medearis/Desktop/StillOpen/Classes/../LocationProvider.m8616411040#1921"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-generated-files.hmap -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-own-target-headers.hmap -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-all-target-headers.hmap -iquote /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-project-headers.hmap -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/../LocationProvider.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/LocationProvider.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/LocationProvider.o /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.906236
+e300774299.975902
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/LocationProvider.o
+x/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m300774299#300774299#0(0"0(0#0#60"/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m8622746944#1930"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/LocationProvider.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/LocationProvider.o /Users/medearis/Desktop/StillOpen/LocationProvider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/MainListViewController.o /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300773606.235515
+e300773606.336334
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/MainListViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m300773606#300773606#0(0"0(0#0#66"/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m8618797408#1942"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/MainListViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSObject+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.569994
+e300774299.619554
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m300774299#300774299#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m8621109152#1933"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSString+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.606028
+e300774299.679709
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m300774299#300774299#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m8622975968#1933"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesDetailViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.932925
+e300774300.044117
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesDetailViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m300774299#300774300#0(0"0(0#0#70"/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m8622272224#1950"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesDetailViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesListViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.975998
+e300774300.112811
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesListViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m300774299#300774300#0(0"0(0#0#68"/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m8621907680#1946"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesListViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s299280124.824183
+e299280124.916339
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/PlacesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/PlacesViewController.m299280124#299280124#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/PlacesViewController.m8617255552#1926"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-generated-files.hmap -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-own-target-headers.hmap -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-all-target-headers.hmap -iquote /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-project-headers.hmap -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-afmujgmrmeorxbbrflpcvjqjozcc/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/PlacesViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/PlacesViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.619649
+e300774299.701697
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJSON.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m300774299#300774299#0(0"0(0#0#55"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m8621239456#1915"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonBase.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.679791
+e300774299.737477
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonBase.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m300774299#300774299#0(0"0(0#0#59"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m8622686080#1923"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonParser.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.701777
+e300774299.806666
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonParser.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m300774299#300774299#0(0"0(0#0#61"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m8622373856#1927"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonWriter.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.737575
+e300774299.822993
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m300774299#300774299#0(0"0(0#0#61"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m8622245824#1927"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/StillOpenAppDelegate.o /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.519187
+e300774299.605920
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/StillOpenAppDelegate.o
+x/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m300774299#300774299#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m8620076736#1938"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/StillOpenAppDelegate.o0#
+
+CCompileC build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/main.o /Users/medearis/Desktop/StillOpen/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774299.517802
+e300774299.569895
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/main.o
+x/Users/medearis/Desktop/StillOpen/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/medearis/Desktop/StillOpen/main.m300774299#300774299#0(0"0(0#0#40"/Users/medearis/Desktop/StillOpen/main.m8621680096#1898"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/main.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/medearis/Desktop/StillOpen/MainWindow.xib
+s300774297.698478
+e300774298.132265
+r1
+xCompileXIB
+x/Users/medearis/Desktop/StillOpen/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib300774297#300774298#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/MainWindow.xib8622543680#560"    cd /Users/medearis/Desktop/StillOpen    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/MainWindow.nib" /Users/medearis/Desktop/StillOpen/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/medearis/Desktop/StillOpen/PlacesDetail.xib
+s300774298.132337
+e300774298.629917
+r1
+xCompileXIB
+x/Users/medearis/Desktop/StillOpen/PlacesDetail.xib
+lSLF07#2@27"CompileXIB PlacesDetail.xib300774298#300774298#0(0"0(0#0#50"/Users/medearis/Desktop/StillOpen/PlacesDetail.xib8622613568#564"    cd /Users/medearis/Desktop/StillOpen    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/PlacesDetail.nib" /Users/medearis/Desktop/StillOpen/PlacesDetail.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/medearis/Desktop/StillOpen/PlacesList.xib
+s300774297.697818
+e300774298.273034
+r1
+xCompileXIB
+x/Users/medearis/Desktop/StillOpen/PlacesList.xib
+lSLF07#2@25"CompileXIB PlacesList.xib300774297#300774298#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/PlacesList.xib8622996736#560"    cd /Users/medearis/Desktop/StillOpen    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/PlacesList.nib" /Users/medearis/Desktop/StillOpen/PlacesList.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource "build/Debug-iphonesimulator/Still Open.app/Powered_By_Yelp_Yellow.png" Powered_By_Yelp_Yellow.png
+s300774298.273958
+e300774298.306692
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Still Open.app/Powered_By_Yelp_Yellow.png
+xPowered_By_Yelp_Yellow.png
+lSLF07#2@31"Copy Powered_By_Yelp_Yellow.png300774298#300774298#0(0"0(0#0#60"/Users/medearis/Desktop/StillOpen/Powered_By_Yelp_Yellow.png8620499968#460"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/Powered_By_Yelp_Yellow.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Still Open.app/background.png" background.png
+s300774298.282777
+e300774298.306991
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Still Open.app/background.png
+xbackground.png
+lSLF07#2@19"Copy background.png300774298#300774298#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/background.png8623307712#448"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/background.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Still Open.app/disclosure.png" disclosure.png
+s300774298.285568
+e300774298.307086
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Still Open.app/disclosure.png
+xdisclosure.png
+lSLF07#2@19"Copy disclosure.png300774298#300774298#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/disclosure.png8620244160#448"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/disclosure.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Still Open.app/headerlogo.png" headerlogo.png
+s300774298.279116
+e300774298.306895
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Still Open.app/headerlogo.png
+xheaderlogo.png
+lSLF07#2@19"Copy headerlogo.png300774298#300774298#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/headerlogo.png8620389856#448"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/headerlogo.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Still Open.app/headerlogo@2x.png" headerlogo@2x.png
+s300774298.275569
+e300774298.306792
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Still Open.app/headerlogo@2x.png
+xheaderlogo@2x.png
+lSLF07#2@22"Copy headerlogo@2x.png300774298#300774298#0(0"0(0#0#51"/Users/medearis/Desktop/StillOpen/headerlogo@2x.png8603392864#451"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/headerlogo@2x.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Still Open.app/icon.png" icon.png
+s300774298.296680
+e300774298.307187
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Still Open.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png300774298#300774298#0(0"0(0#0#42"/Users/medearis/Desktop/StillOpen/icon.png8620965920#442"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/icon.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Still Open.app/icon@2x.png" icon@2x.png
+s300774298.302683
+e300774298.307282
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Still Open.app/icon@2x.png
+xicon@2x.png
+lSLF07#2@16"Copy icon@2x.png300774298#300774298#0(0"0(0#0#45"/Users/medearis/Desktop/StillOpen/icon@2x.png8601139296#445"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/icon@2x.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Still Open.app/reviewsFromYelpYLW.gif" reviewsFromYelpYLW.gif
+s300774298.273123
+e300774298.306580
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Still Open.app/reviewsFromYelpYLW.gif
+xreviewsFromYelpYLW.gif
+lSLF07#2@27"Copy reviewsFromYelpYLW.gif300774298#300774298#0(0"0(0#0#56"/Users/medearis/Desktop/StillOpen/reviewsFromYelpYLW.gif8622059392#456"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/reviewsFromYelpYLW.gif "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"0#
+
+CCpResource build/Debug-iphonesimulator/StillOpen.app/Powered_By_Yelp_Yellow.png Powered_By_Yelp_Yellow.png
+s300060790.162507
+e300060790.211097
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/StillOpen.app/Powered_By_Yelp_Yellow.png
+xPowered_By_Yelp_Yellow.png
+lSLF07#2@31"Copy Powered_By_Yelp_Yellow.png300060790#300060790#0(0"0(0#0#60"/Users/medearis/Desktop/StillOpen/Powered_By_Yelp_Yellow.png8619528576#457"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/Powered_By_Yelp_Yellow.png /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app0#
+
+CCpResource build/Debug-iphonesimulator/StillOpen.app/background.png background.png
+s300585116.383866
+e300585116.414663
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/StillOpen.app/background.png
+xbackground.png
+lSLF07#2@19"Copy background.png300585116#300585116#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/background.png8616136992#445"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/background.png /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app0#
+
+CCpResource build/Debug-iphonesimulator/StillOpen.app/disclosure.png disclosure.png
+s300590251.354784
+e300590251.462025
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/StillOpen.app/disclosure.png
+xdisclosure.png
+lSLF07#2@19"Copy disclosure.png300590251#300590251#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/disclosure.png8617106208#445"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/disclosure.png /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app0#
+
+CCpResource build/Debug-iphonesimulator/StillOpen.app/disclosure_indicator.jpg disclosure_indicator.jpg
+s300590114.364392
+e300590114.403143
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/StillOpen.app/disclosure_indicator.jpg
+xdisclosure_indicator.jpg
+lSLF07#2@29"Copy disclosure_indicator.jpg300590114#300590114#0(0"0(0#0#58"/Users/medearis/Desktop/StillOpen/disclosure_indicator.jpg8619271584#455"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/disclosure_indicator.jpg /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app0#
+
+CCpResource build/Debug-iphonesimulator/StillOpen.app/headerlogo.png headerlogo.png
+s300583973.454775
+e300583973.482868
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/StillOpen.app/headerlogo.png
+xheaderlogo.png
+lSLF07#2@19"Copy headerlogo.png300583973#300583973#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/headerlogo.png8615411040#445"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/headerlogo.png /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app0#
+
+CCpResource build/Debug-iphonesimulator/StillOpen.app/headerlogo@2x.png headerlogo@2x.png
+s300583822.953139
+e300583823.000545
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/StillOpen.app/headerlogo@2x.png
+xheaderlogo@2x.png
+lSLF07#2@22"Copy headerlogo@2x.png300583822#300583823#0(0"0(0#0#51"/Users/medearis/Desktop/StillOpen/headerlogo@2x.png8616582880#448"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/headerlogo@2x.png /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app0#
+
+CCpResource build/Debug-iphonesimulator/StillOpen.app/icon.png icon.png
+r0
+
+CCpResource build/Debug-iphonesimulator/StillOpen.app/icon@2x.png icon@2x.png
+r0
+
+CCpResource build/Debug-iphonesimulator/StillOpen.app/reviewsFromYelpYLW.gif reviewsFromYelpYLW.gif
+s300060790.161534
+e300060790.211349
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/StillOpen.app/reviewsFromYelpYLW.gif
+xreviewsFromYelpYLW.gif
+lSLF07#2@27"Copy reviewsFromYelpYLW.gif300060790#300060790#0(0"0(0#0#56"/Users/medearis/Desktop/StillOpen/reviewsFromYelpYLW.gif8620708992#453"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/reviewsFromYelpYLW.gif /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app0#
+
+CGenerateDSYMFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app.dSYM" "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open"
+s300774300.145208
+e300774300.192949
+r1
+xGenerateDSYMFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app.dSYM
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/Still Open.app.dSYM" "build/Debug-iphonesimulator/Still Open.app/Still Open"300774300#300774300#0(0"0(0#0#87"/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open8622215488#381"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open" -o "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app.dSYM"0#
+
+CGenerateDSYMFile /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app.dSYM /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/StillOpen
+s300589869.852532
+e300589869.980108
+r1
+xGenerateDSYMFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app.dSYM
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/StillOpen
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/StillOpen.app.dSYM build/Debug-iphonesimulator/StillOpen.app/StillOpen300589869#300589869#0(0"0(0#0#85"/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/StillOpen8618535232#374"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/StillOpen -o /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app.dSYM0#
+
+CLd "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open" normal i386
+s300774300.112939
+e300774300.145114
+r1
+xLd
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open
+xnormal
+xi386
+lSLF07#2@92"Link /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open300774300#300774300#0(0"0(0#0#0"8622943360#934"    cd /Users/medearis/Desktop/StillOpen    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -filelist "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/Still Open.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Still Open"0#
+
+CLd /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/StillOpen normal i386
+s300589869.741610
+e300589869.852256
+r1
+xLd
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/StillOpen
+xnormal
+xi386
+lSLF07#2@90"Link /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/StillOpen300589869#300589869#0(0"0(0#0#0"8620683072#927"    cd /Users/medearis/Desktop/StillOpen    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -filelist /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Objects-normal/i386/StillOpen.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/StillOpen0#
+
+CProcessInfoPlistFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Info.plist" StillOpen-Info.plist
+s300774297.687215
+e300774297.697655
+r1
+xProcessInfoPlistFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Info.plist
+xStillOpen-Info.plist
+lSLF07#2@28"Process StillOpen-Info.plist300774297#300774297#0(0"0(0#0#54"/Users/medearis/Desktop/StillOpen/StillOpen-Info.plist8621546272#476"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility StillOpen-Info.plist -genpkginfo "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app/Info.plist"0#
+
+CProcessInfoPlistFile /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/Info.plist StillOpen-Info.plist
+s299273911.161764
+e299273911.188247
+r1
+xProcessInfoPlistFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/Info.plist
+xStillOpen-Info.plist
+lSLF07#2@28"Process StillOpen-Info.plist299273911#299273911#0(0"0(0#0#54"/Users/medearis/Desktop/StillOpen/StillOpen-Info.plist30681223440564324#470"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility StillOpen-Info.plist -genpkginfo /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app/Info.plist0#
+
+CProcessPCH /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-afmujgmrmeorxbbrflpcvjqjozcc/StillOpen_Prefix.pch.gch StillOpen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s299273911.658678
+e299273912.558761
+r1
+xProcessPCH
+x/var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-afmujgmrmeorxbbrflpcvjqjozcc/StillOpen_Prefix.pch.gch
+xStillOpen_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile StillOpen_Prefix.pch299273911#299273912#0(0"0(0#0#54"/Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch8603081856#1781"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-generated-files.hmap -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-own-target-headers.hmap -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-all-target-headers.hmap -iquote /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/StillOpen-project-headers.hmap -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -c /Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch -o /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-afmujgmrmeorxbbrflpcvjqjozcc/StillOpen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch.gch StillOpen_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s300774298.630077
+e300774299.517567
+r1
+xProcessPCH
+x/var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch.gch
+xStillOpen_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile StillOpen_Prefix.pch300774298#300774299#0(0"0(0#0#54"/Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch8623142016#1793"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator -I/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources/i386 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphonesimulator/StillOpen.build/DerivedSources -c /Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch -o /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-cwrqtznyzkbshqdjoxhjhorsxhzx/StillOpen_Prefix.pch.gch0#
+
+CTouch "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"
+s300774300.193207
+e300774300.195726
+r1
+xTouch
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app
+lSLF07#2@82"Touch /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app300774300#300774300#0(0"0(0#0#0"8619433600#273"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/Still Open.app"0#
+
+CTouch /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app
+s300590252.466782
+e300590252.470189
+r1
+xTouch
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app
+lSLF07#2@81"Touch /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app300590252#300590252#0(0"0(0#0#0"8612932288#270"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/medearis/Desktop/StillOpen/build/Debug-iphonesimulator/StillOpen.app0#
+

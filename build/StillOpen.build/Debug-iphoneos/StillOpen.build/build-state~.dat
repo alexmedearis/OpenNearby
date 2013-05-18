@@ -1,0 +1,1204 @@
+TStillOpen
+v7
+r0
+t300697432.961829
+cCheck dependencies
+cCpResource "build/Debug-iphoneos/Still Open.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Info.plist" StillOpen-Info.plist
+cCompileXIB /Users/medearis/Desktop/StillOpen/PlacesList.xib
+cCompileXIB /Users/medearis/Desktop/StillOpen/MainWindow.xib
+cCompileXIB /Users/medearis/Desktop/StillOpen/PlacesDetail.xib
+cCpResource "build/Debug-iphoneos/Still Open.app/reviewsFromYelpYLW.gif" reviewsFromYelpYLW.gif
+cCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Powered_By_Yelp_Yellow.png" Powered_By_Yelp_Yellow.png
+cCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo@2x.png" headerlogo@2x.png
+cCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo.png" headerlogo.png
+cCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/background.png" background.png
+cCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/disclosure.png" disclosure.png
+cCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon.png" icon.png
+cCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon@2x.png" icon@2x.png
+cProcessPCH /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch.gch StillOpen_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch.gch StillOpen_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/main.o /Users/medearis/Desktop/StillOpen/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/StillOpenAppDelegate.o /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesListViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSString+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonBase.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonParser.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonWriter.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/BusinessModel.o /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/DataProvider.o /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/LocationProvider.o /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesDetailViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/MainListViewController.o /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/main.o /Users/medearis/Desktop/StillOpen/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/StillOpenAppDelegate.o /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/Still Open" normal armv6
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesListViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSString+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonBase.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonParser.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonWriter.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/BusinessModel.o /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/DataProvider.o /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/LocationProvider.o /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesDetailViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/MainListViewController.o /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/Still Open" normal armv7
+cCreateUniversalBinary "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app.dSYM" "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open"
+cProcessProductPackaging "/Users/medearis/Library/MobileDevice/Provisioning Profiles/937C69CD-2B53-46C3-9F27-5572C9DB6FEA.mobileprovision" "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/embedded.mobileprovision"
+cTouch "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open.xcent"
+cCodeSign "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C05C1B10000000000000110
+t1275445681
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BF4B7F900000000000001A7
+t1274329081
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004C04706200000000000C1E70
+t1275359330
+s794224
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004C04705A00000000000001D0
+t1275359322
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004C04800D00000000000002FE
+t1275363341
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004C0480330000000000267F90
+t1275363379
+s2523024
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.h
+c000000004C3A6AD90000000000000447
+t1278896857
+s1095
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m
+c000000004C3A6B69000000000000043A
+t1278897001
+s1082
+i"BusinessModel.h"
+i<MapKit/MapKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/DataProvider.h
+c000000004C35528A000000000000031E
+t1278562954
+s798
+i<Foundation/Foundation.h>
+i"DataReceiver.h"
+i"LocationProvider.h"
+i"LocationReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/DataProvider.m
+c000000004C3A6BA800000000000010CB
+t1278897064
+s4299
+i"DataProvider.h"
+i"JSON/JSON.h"
+i"BusinessModel.h"
+i"DataReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/DataReceiver.h
+c000000004C2E105C0000000000000103
+t1278087260
+s259
+i<UIKit/UIKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/JSON.h
+c000000004B93BE5E00000000000008F9
+t1267973726
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.h
+c000000004B93BE5E0000000000000A01
+t1267973726
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m
+c000000004B93BE5E000000000000089E
+t1267973726
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.h
+c000000004B93BE5E0000000000000916
+t1267973726
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m
+c000000004B93BE5E000000000000087D
+t1267973726
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.h
+c000000004B93BE5E0000000000000AED
+t1267973726
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m
+c000000004B93BE5E0000000000001ABC
+t1267973726
+s6844
+i"SBJSON.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.h
+c000000004B93BE5E0000000000000B82
+t1267973726
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m
+c000000004B93BE5E0000000000000AC1
+t1267973726
+s2753
+i"SBJsonBase.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.h
+c000000004B93BE5E0000000000000C0B
+t1267973726
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m
+c000000004B93C6A300000000000036D0
+t1267975843
+s14032
+i"SBJsonParser.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.h
+c000000004B93BE5E0000000000001140
+t1267973726
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m
+c000000004B93BE5E0000000000001F26
+t1267973726
+s7974
+i"SBJsonWriter.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.h
+c000000004C3550DE0000000000000386
+t1278562526
+s902
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+i"LocationReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m
+c000000004C35518800000000000005B6
+t1278562696
+s1462
+i<CoreLocation/CoreLocation.h>
+i"LocationProvider.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/LocationReceiver.h
+c000000004C30E9AA0000000000000106
+t1278273962
+s262
+i<UIKit/UIKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.h
+c000000004C325D0300000000000001D5
+t1278369027
+s469
+i<UIKit/UIKit.h>
+i"DataProvider.h"
+i"DataReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m
+c000000004C35574E0000000000001853
+t1278564174
+s6227
+i"MainListViewController.h"
+i"BusinessModel.h"
+i"PlacesDetailViewController.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.h
+c000000004C3A634300000000000003E0
+t1278894915
+s992
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"BusinessModel.h"
+i"LocationProvider.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m
+c000000004C3A65350000000000001341
+t1278895413
+s4929
+i"PlacesDetailViewController.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.h
+c000000004C325C9400000000000001D4
+t1278368916
+s468
+i<UIKit/UIKit.h>
+i"DataProvider.h"
+i"DataReceiver.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m
+c000000004C3A65D5000000000000141C
+t1278895573
+s5148
+i"PlacesListViewController.h"
+i"BusinessModel.h"
+i"PlacesDetailViewController.h"
+
+N/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.h
+c000000004C266F790000000000000180
+t1277587321
+s384
+i<UIKit/UIKit.h>
+
+N/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m
+c000000004C3A4ADC0000000000000BEA
+t1278888668
+s3050
+i"StillOpenAppDelegate.h"
+i"PlacesListViewController.h"
+
+N/Users/medearis/Desktop/StillOpen/MainWindow.xib
+c000000004C2674580000000000004509
+t1277588568
+s17673
+
+N/Users/medearis/Desktop/StillOpen/PlacesDetail.xib
+c000000004C3A6D5F0000000000009AD4
+t1278897503
+s39636
+
+N/Users/medearis/Desktop/StillOpen/PlacesList.xib
+c000000004C3A5CA700000000000057A0
+t1278893223
+s22432
+
+N/Users/medearis/Desktop/StillOpen/Powered_By_Yelp_Yellow.png
+c000000004C32545D0000000000000ADA
+t1278366813
+s2778
+
+N/Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch
+c000000004C2E087300000000000000E2
+t1278085235
+s226
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/medearis/Desktop/StillOpen/background.png
+c000000004C3A590B0000000000002030
+t1278892299
+s8240
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app
+t1279004632
+s680
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app.dSYM
+t1279004632
+s102
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Info.plist
+t1279004628
+s768
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/MainWindow.nib
+t1279004628
+s986
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/PkgInfo
+t1279004628
+s8
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/PlacesDetail.nib
+t1279004629
+s3557
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/PlacesList.nib
+t1279004628
+s1439
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Powered_By_Yelp_Yellow.png
+t1279004629
+s2837
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/ResourceRules.plist
+t1279004628
+s485
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open
+t1279004632
+s193456
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/background.png
+t1279004629
+s9232
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/disclosure.png
+t1279004629
+s3126
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/embedded.mobileprovision
+t1279004632
+s7238
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo.png
+t1279004629
+s37621
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo@2x.png
+t1279004629
+s92531
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon.png
+t1279004629
+s9094
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon@2x.png
+t1279004629
+s22842
+
+N/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/reviewsFromYelpYLW.gif
+t1279004628
+s1385
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/BusinessModel.o
+t1279004631
+s23316
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/DataProvider.o
+t1279004631
+s55944
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/LocationProvider.o
+t1279004631
+s16404
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/MainListViewController.o
+t1279004631
+s45256
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1279004631
+s8284
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSString+SBJSON.o
+t1279004631
+s8212
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesDetailViewController.o
+t1279004631
+s57144
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesListViewController.o
+t1279004631
+s48864
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJSON.o
+t1279004631
+s18468
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonBase.o
+t1279004631
+s12900
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonParser.o
+t1279004631
+s34500
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonWriter.o
+t1279004631
+s24696
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/Still Open
+t1279004632
+s95340
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/Still Open.LinkFileList
+c000000004C3C0FD400000000000006E1
+t1279004628
+s1761
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/StillOpenAppDelegate.o
+t1279004631
+s50900
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/main.o
+t1279004631
+s6428
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/BusinessModel.o
+t1279004632
+s22904
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/DataProvider.o
+t1279004632
+s55692
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/LocationProvider.o
+t1279004632
+s16300
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/MainListViewController.o
+t1279004632
+s45008
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1279004631
+s8244
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSString+SBJSON.o
+t1279004631
+s8168
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesDetailViewController.o
+t1279004632
+s56592
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesListViewController.o
+t1279004631
+s48440
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJSON.o
+t1279004631
+s18220
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonBase.o
+t1279004632
+s12776
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonParser.o
+t1279004632
+s32452
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonWriter.o
+t1279004632
+s24308
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/Still Open
+t1279004632
+s91056
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/Still Open.LinkFileList
+c000000004C3C0FD400000000000006E1
+t1279004628
+s1761
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/StillOpenAppDelegate.o
+t1279004631
+s50816
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/main.o
+t1279004631
+s6412
+
+N/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open.xcent
+t1279004632
+s426
+
+N/Users/medearis/Desktop/StillOpen/disclosure.png
+c000000004C3A6CF10000000000000C4A
+t1278897393
+s3146
+
+N/Users/medearis/Desktop/StillOpen/headerlogo.png
+c000000004C3A548E0000000000007013
+t1278891150
+s28691
+
+N/Users/medearis/Desktop/StillOpen/headerlogo@2x.png
+c000000004C3A53DB0000000000012012
+t1278890971
+s73746
+
+N/Users/medearis/Desktop/StillOpen/icon.png
+c000000004C3A6E6B0000000000001FCC
+t1278897771
+s8140
+
+N/Users/medearis/Desktop/StillOpen/icon@2x.png
+c000000004C3A6E570000000000005013
+t1278897751
+s20499
+
+N/Users/medearis/Desktop/StillOpen/main.m
+c000000004C2657240000000000000171
+t1277581092
+s369
+i<UIKit/UIKit.h>
+
+N/Users/medearis/Desktop/StillOpen/reviewsFromYelpYLW.gif
+c000000004C32543E0000000000000569
+t1278366782
+s1385
+
+N/Users/medearis/Library/MobileDevice/Provisioning Profiles/937C69CD-2B53-46C3-9F27-5572C9DB6FEA.mobileprovision
+c000000004C3C079C0000000000001C46
+t1279002524
+s7238
+
+N/var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch.gch
+t1279004630
+s10368784
+
+N/var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch.gch
+t1279004630
+s9893648
+
+NStillOpen-Info.plist
+c000000004C3A91750000000000000392
+t1278906741
+s914
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies300697428#300697428#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCodeSign "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app"
+s300697432.741535
+e300697432.961784
+r1
+xCodeSign
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app
+lSLF07#2@46"CodeSign "build/Debug-iphoneos/Still Open.app"300697432#300697432#0(0"0(0#0#69"/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app8608103424#648"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Alex Medearis (96KPLGKX5U)" "--resource-rules=/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/ResourceRules.plist" --entitlements "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open.xcent" "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app"0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/BusinessModel.o /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.398144
+e300697431.527692
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/BusinessModel.o
+x/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m300697431#300697431#0(0"0(0#0#57"/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m8608598880#1747"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/BusinessModel.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/DataProvider.o /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.418443
+e300697431.510649
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/DataProvider.o
+x/Users/medearis/Desktop/StillOpen/Classes/DataProvider.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m300697431#300697431#0(0"0(0#0#56"/Users/medearis/Desktop/StillOpen/Classes/DataProvider.m8608369056#1745"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/DataProvider.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/LocationProvider.o /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.510777
+e300697431.577838
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/LocationProvider.o
+x/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m300697431#300697431#0(0"0(0#0#60"/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m8608234688#1753"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/LocationProvider.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/MainListViewController.o /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.577922
+e300697431.687727
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/MainListViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m300697431#300697431#0(0"0(0#0#66"/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m8605295232#1765"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/MainListViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.153704
+e300697431.199823
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m300697431#300697431#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m8603150560#1756"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSObject+SBJSON.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSString+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.199917
+e300697431.253818
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m300697431#300697431#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m8599292576#1756"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/NSString+SBJSON.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesDetailViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.527777
+e300697431.625607
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesDetailViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m300697431#300697431#0(0"0(0#0#70"/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m8607967968#1773"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesDetailViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesListViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.110663
+e300697431.203728
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesListViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m300697431#300697431#0(0"0(0#0#68"/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m8605524288#1769"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/PlacesListViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.203807
+e300697431.288389
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJSON.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m300697431#300697431#0(0"0(0#0#55"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m8610842816#1738"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJSON.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonBase.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.253903
+e300697431.315219
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m300697431#300697431#0(0"0(0#0#59"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m8608172160#1746"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonBase.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonParser.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.288470
+e300697431.418354
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m300697431#300697431#0(0"0(0#0#61"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m8610693472#1750"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonParser.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonWriter.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697431.315309
+e300697431.398053
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m300697431#300697431#0(0"0(0#0#61"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m8610309472#1750"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/SBJsonWriter.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/StillOpenAppDelegate.o /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697430.966832
+e300697431.153607
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/StillOpenAppDelegate.o
+x/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m300697430#300697431#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m8608801792#1761"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/StillOpenAppDelegate.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/main.o /Users/medearis/Desktop/StillOpen/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697430.965972
+e300697431.110574
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/main.o
+x/Users/medearis/Desktop/StillOpen/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/medearis/Desktop/StillOpen/main.m300697430#300697431#0(0"0(0#0#40"/Users/medearis/Desktop/StillOpen/main.m8610876608#1721"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/main.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/BusinessModel.o /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697432.103410
+e300697432.174430
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/BusinessModel.o
+x/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m300697432#300697432#0(0"0(0#0#57"/Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m8605803584#1747"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/BusinessModel.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/BusinessModel.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/DataProvider.o /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697432.144546
+e300697432.262283
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/DataProvider.o
+x/Users/medearis/Desktop/StillOpen/Classes/DataProvider.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m300697432#300697432#0(0"0(0#0#56"/Users/medearis/Desktop/StillOpen/Classes/DataProvider.m8605756928#1745"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/DataProvider.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/DataProvider.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/LocationProvider.o /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697432.174524
+e300697432.241050
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/LocationProvider.o
+x/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m300697432#300697432#0(0"0(0#0#60"/Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m8605209952#1753"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/LocationProvider.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/LocationProvider.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/MainListViewController.o /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697432.262377
+e300697432.336962
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/MainListViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m300697432#300697432#0(0"0(0#0#66"/Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m8608772800#1765"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/MainListViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/MainListViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697431.810728
+e300697431.852767
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m300697431#300697431#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m8608200512#1756"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/NSObject+SBJSON.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSObject+SBJSON.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSString+SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697431.852865
+e300697431.897160
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m300697431#300697431#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m8607997344#1756"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/NSString+SBJSON.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/NSString+SBJSON.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesDetailViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697432.241142
+e300697432.337539
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesDetailViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m300697432#300697432#0(0"0(0#0#70"/Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m8610315808#1773"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/PlacesDetailViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesDetailViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesListViewController.o /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697431.737546
+e300697431.810642
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesListViewController.o
+x/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m300697431#300697431#0(0"0(0#0#68"/Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m8608382720#1769"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/PlacesListViewController.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/PlacesListViewController.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJSON.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697431.897258
+e300697431.954485
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJSON.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m300697431#300697431#0(0"0(0#0#55"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m8610502944#1738"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJSON.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJSON.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonBase.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697431.954591
+e300697432.001930
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m300697431#300697432#0(0"0(0#0#59"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m8609993216#1746"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonBase.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonBase.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonParser.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697432.002027
+e300697432.103319
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m300697432#300697432#0(0"0(0#0#61"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m8608626688#1750"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonParser.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonParser.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonWriter.o /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697432.051630
+e300697432.144456
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m300697432#300697432#0(0"0(0#0#61"/Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m8608198336#1750"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/JSON/SBJsonWriter.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/SBJsonWriter.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/StillOpenAppDelegate.o /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697431.670329
+e300697431.737448
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/StillOpenAppDelegate.o
+x/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m300697431#300697431#0(0"0(0#0#64"/Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m8610233024#1761"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/Classes/StillOpenAppDelegate.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/StillOpenAppDelegate.o0#
+
+CCompileC build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/main.o /Users/medearis/Desktop/StillOpen/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697431.625705
+e300697431.670232
+r1
+xCompileC
+xbuild/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/main.o
+x/Users/medearis/Desktop/StillOpen/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/medearis/Desktop/StillOpen/main.m300697431#300697431#0(0"0(0#0#40"/Users/medearis/Desktop/StillOpen/main.m8611163072#1721"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -include /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch -c /Users/medearis/Desktop/StillOpen/main.m -o /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/medearis/Desktop/StillOpen/MainWindow.xib
+s300697428.534602
+e300697428.942455
+r1
+xCompileXIB
+x/Users/medearis/Desktop/StillOpen/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib300697428#300697428#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#48"/Users/medearis/Desktop/StillOpen/MainWindow.xib8608462112#532"    cd /Users/medearis/Desktop/StillOpen    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/MainWindow.nib" /Users/medearis/Desktop/StillOpen/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/medearis/Desktop/StillOpen/PlacesDetail.xib
+s300697428.942549
+e300697429.588016
+r1
+xCompileXIB
+x/Users/medearis/Desktop/StillOpen/PlacesDetail.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@27"CompileXIB PlacesDetail.xib300697428#300697429#0(504"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#50"/Users/medearis/Desktop/StillOpen/PlacesDetail.xib8610140576#536"    cd /Users/medearis/Desktop/StillOpen    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/PlacesDetail.nib" /Users/medearis/Desktop/StillOpen/PlacesDetail.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/medearis/Desktop/StillOpen/PlacesList.xib
+s300697428.534033
+e300697428.943365
+r1
+xCompileXIB
+x/Users/medearis/Desktop/StillOpen/PlacesList.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB PlacesList.xib300697428#300697428#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#48"/Users/medearis/Desktop/StillOpen/PlacesList.xib8608804864#532"    cd /Users/medearis/Desktop/StillOpen    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/PlacesList.nib" /Users/medearis/Desktop/StillOpen/PlacesList.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Powered_By_Yelp_Yellow.png" Powered_By_Yelp_Yellow.png
+s300697428.944015
+e300697429.130410
+r1
+xCopyPNGFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Powered_By_Yelp_Yellow.png
+xPowered_By_Yelp_Yellow.png
+lSLF07#2@103"CopyPNGFile "build/Debug-iphoneos/Still Open.app/Powered_By_Yelp_Yellow.png" Powered_By_Yelp_Yellow.png300697428#300697429#0(0"0(0#0#60"/Users/medearis/Desktop/StillOpen/Powered_By_Yelp_Yellow.png8605769472#582"    cd /Users/medearis/Desktop/StillOpen    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/medearis/Desktop/StillOpen/Powered_By_Yelp_Yellow.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Powered_By_Yelp_Yellow.png"0#
+
+CCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/background.png" background.png
+s300697429.466805
+e300697429.510885
+r1
+xCopyPNGFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/background.png
+xbackground.png
+lSLF07#2@79"CopyPNGFile "build/Debug-iphoneos/Still Open.app/background.png" background.png300697429#300697429#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/background.png8610758976#558"    cd /Users/medearis/Desktop/StillOpen    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/medearis/Desktop/StillOpen/background.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/background.png"0#
+
+CCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/disclosure.png" disclosure.png
+s300697429.510985
+e300697429.539260
+r1
+xCopyPNGFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/disclosure.png
+xdisclosure.png
+lSLF07#2@79"CopyPNGFile "build/Debug-iphoneos/Still Open.app/disclosure.png" disclosure.png300697429#300697429#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/disclosure.png8610583584#558"    cd /Users/medearis/Desktop/StillOpen    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/medearis/Desktop/StillOpen/disclosure.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/disclosure.png"0#
+
+CCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo.png" headerlogo.png
+s300697429.367083
+e300697429.466685
+r1
+xCopyPNGFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo.png
+xheaderlogo.png
+lSLF07#2@79"CopyPNGFile "build/Debug-iphoneos/Still Open.app/headerlogo.png" headerlogo.png300697429#300697429#0(0"0(0#0#48"/Users/medearis/Desktop/StillOpen/headerlogo.png8611163360#558"    cd /Users/medearis/Desktop/StillOpen    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/medearis/Desktop/StillOpen/headerlogo.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo.png"0#
+
+CCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo@2x.png" headerlogo@2x.png
+s300697429.130501
+e300697429.366994
+r1
+xCopyPNGFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo@2x.png
+xheaderlogo@2x.png
+lSLF07#2@85"CopyPNGFile "build/Debug-iphoneos/Still Open.app/headerlogo@2x.png" headerlogo@2x.png300697429#300697429#0(0"0(0#0#51"/Users/medearis/Desktop/StillOpen/headerlogo@2x.png8608769280#564"    cd /Users/medearis/Desktop/StillOpen    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/medearis/Desktop/StillOpen/headerlogo@2x.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/headerlogo@2x.png"0#
+
+CCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon.png" icon.png
+s300697429.539348
+e300697429.560530
+r1
+xCopyPNGFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon.png
+xicon.png
+lSLF07#2@67"CopyPNGFile "build/Debug-iphoneos/Still Open.app/icon.png" icon.png300697429#300697429#0(0"0(0#0#42"/Users/medearis/Desktop/StillOpen/icon.png8610347840#546"    cd /Users/medearis/Desktop/StillOpen    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/medearis/Desktop/StillOpen/icon.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon.png"0#
+
+CCopyPNGFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon@2x.png" icon@2x.png
+s300697429.560616
+e300697429.636757
+r1
+xCopyPNGFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon@2x.png
+xicon@2x.png
+lSLF07#2@73"CopyPNGFile "build/Debug-iphoneos/Still Open.app/icon@2x.png" icon@2x.png300697429#300697429#0(0"0(0#0#45"/Users/medearis/Desktop/StillOpen/icon@2x.png8610187648#552"    cd /Users/medearis/Desktop/StillOpen    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/medearis/Desktop/StillOpen/icon@2x.png "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/icon@2x.png"0#
+
+CCpResource "build/Debug-iphoneos/Still Open.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s300697428.476927
+e300697428.533954
+r1
+xCpResource
+xbuild/Debug-iphoneos/Still Open.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist300697428#300697428#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist5994135409057033216#475"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app"0#
+
+CCpResource "build/Debug-iphoneos/Still Open.app/reviewsFromYelpYLW.gif" reviewsFromYelpYLW.gif
+s300697428.943430
+e300697428.963647
+r1
+xCpResource
+xbuild/Debug-iphoneos/Still Open.app/reviewsFromYelpYLW.gif
+xreviewsFromYelpYLW.gif
+lSLF07#2@27"Copy reviewsFromYelpYLW.gif300697428#300697428#0(0"0(0#0#56"/Users/medearis/Desktop/StillOpen/reviewsFromYelpYLW.gif8608428640#442"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/medearis/Desktop/StillOpen/reviewsFromYelpYLW.gif "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app"0#
+
+CCreateUniversalBinary "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open" normal "armv6 armv7"
+s300697432.564138
+e300697432.627993
+r1
+xCreateUniversalBinary
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open
+xnormal
+xarmv6 armv7
+lSLF07#2@91"CreateUniversalBinary "build/Debug-iphoneos/Still Open.app/Still Open" normal "armv6 armv7"300697432#300697432#0(0"0(0#0#45"/Users/medearis/Desktop/StillOpen/armv6 armv78605579136#524"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/Still Open" "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/Still Open" -output "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open"0#
+
+CGenerateDSYMFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app.dSYM" "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open"
+s300697432.628144
+e300697432.715749
+r1
+xGenerateDSYMFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app.dSYM
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open
+lSLF07#2@108"GenerateDSYMFile "build/Debug-iphoneos/Still Open.app.dSYM" "build/Debug-iphoneos/Still Open.app/Still Open"300697432#300697432#0(0"0(0#0#80"/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open8606272128#360"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Still Open" -o "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app.dSYM"0#
+
+CLd "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/Still Open" normal armv6
+s300697431.687825
+e300697432.051527
+r1
+xLd
+x/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/Still Open
+xnormal
+xarmv6
+lSLF07#2@123"Link /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/Still Open300697431#300697432#0(0"0(0#0#0"8608805248#894"    cd /Users/medearis/Desktop/StillOpen    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -filelist "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/Still Open.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv6/Still Open"0#
+
+CLd "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/Still Open" normal armv7
+s300697432.337601
+e300697432.563970
+r1
+xLd
+x/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/Still Open
+xnormal
+xarmv7
+lSLF07#2@123"Link /Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/Still Open300697432#300697432#0(0"0(0#0#0"8608627712#894"    cd /Users/medearis/Desktop/StillOpen    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -filelist "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/Still Open.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Objects-normal/armv7/Still Open"0#
+
+CProcessInfoPlistFile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Info.plist" StillOpen-Info.plist
+s300697428.510197
+e300697428.521818
+r1
+xProcessInfoPlistFile
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Info.plist
+xStillOpen-Info.plist
+lSLF07#2@28"Process StillOpen-Info.plist300697428#300697428#0(0"0(0#0#54"/Users/medearis/Desktop/StillOpen/StillOpen-Info.plist8610383936#559"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility StillOpen-Info.plist -genpkginfo "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/ResourceRules.plist" -o "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/Info.plist"0#
+
+CProcessPCH /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch.gch StillOpen_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300697429.637755
+e300697430.849522
+r1
+xProcessPCH
+x/var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch.gch
+xStillOpen_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile StillOpen_Prefix.pch300697429#300697430#0(0"0(0#0#54"/Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch8608686592#1622"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv7 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -c /Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch -o /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-gouzavvzoqtomncckxnqwosydqtl/StillOpen_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch.gch StillOpen_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300697429.637020
+e300697430.965874
+r1
+xProcessPCH
+x/var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch.gch
+xStillOpen_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile StillOpen_Prefix.pch300697429#300697430#0(0"0(0#0#54"/Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch8609972864#1622"    cd /Users/medearis/Desktop/StillOpen    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-generated-files.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-own-target-headers.hmap" "-I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-all-target-headers.hmap" -iquote "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open-project-headers.hmap" -F/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos -I/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/include -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources/armv6 -I/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/DerivedSources -c /Users/medearis/Desktop/StillOpen/StillOpen_Prefix.pch -o /var/folders/bs/bsObtQj0E6qoBuKu1sE8MU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/StillOpen_Prefix-hgwwelciwksxxfckrcazanzodcju/StillOpen_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/medearis/Library/MobileDevice/Provisioning Profiles/937C69CD-2B53-46C3-9F27-5572C9DB6FEA.mobileprovision" "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/embedded.mobileprovision"
+s300697432.715846
+e300697432.717774
+r1
+xProcessProductPackaging
+x/Users/medearis/Library/MobileDevice/Provisioning Profiles/937C69CD-2B53-46C3-9F27-5572C9DB6FEA.mobileprovision
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/medearis/Library/MobileDevice/Provisioning Profiles/937C69CD-2B53-46C3-9F27-5572C9DB6FEA.mobileprovision" "build/Debug-iphoneos/Still Open.app/embedded.mobileprovision"300697432#300697432#0(0"0(0#0#94"/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/embedded.mobileprovision8610650432#421"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/medearis/Library/MobileDevice/Provisioning Profiles/937C69CD-2B53-46C3-9F27-5572C9DB6FEA.mobileprovision" -o "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open.xcent"
+s300697432.720329
+e300697432.741424
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open.xcent"300697432#300697432#0(0"0(0#0#103"/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open.xcent8608346624#431"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/medearis/Desktop/StillOpen/build/StillOpen.build/Debug-iphoneos/StillOpen.build/Still Open.xcent"0#
+
+CTouch "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app"
+s300697432.717828
+e300697432.720268
+r1
+xTouch
+x/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app
+lSLF07#2@75"Touch /Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app300697432#300697432#0(0"0(0#0#0"8610174688#259"    cd /Users/medearis/Desktop/StillOpen    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/medearis/Desktop/StillOpen/build/Debug-iphoneos/Still Open.app"0#
+
