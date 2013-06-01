@@ -88,6 +88,7 @@
 
 - (NSURL *)getUrl:(BusinessModel *)business {
     NSString * toReturn = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/details/json?key=%@&reference=%@&sensor=true", API_KEY, business.reference];
+    NSLog(@"%@", toReturn);
     return [NSURL URLWithString:toReturn];
 }
 
@@ -177,12 +178,12 @@
         
         NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
         NSDateComponents *comps = [gregorian components:NSWeekdayCalendarUnit fromDate:[NSDate date]];
-        int weekday = [comps weekday];
+        int weekday = [comps weekday] - 1;
         
         if(business[@"opening_hours"]) {
             if(business[@"opening_hours"][@"periods"]){
                 NSArray * periods = business[@"opening_hours"][@"periods"];
-                if(periods.count > weekday) {
+                if(periods.count >= weekday) {
                     int open = -1;
                     int close = -1;
                     if(periods[weekday][@"open"]){
@@ -237,12 +238,12 @@
     // e.g. self.myOutlet = nil;
 }
 
-/*
+
  // Override to allow orientations other than the default portrait orientation.
  - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
  // Return YES for supported orientations
- return (interfaceOrientation == UIInterfaceOrientationPortrait);
+     return YES;
  }
- */
+ 
 
 @end
