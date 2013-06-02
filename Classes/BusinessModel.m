@@ -3,7 +3,7 @@
 //  StillOpen
 //
 //  Created by Alexander Medearis on 6/28/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Alex Medearis. All rights reserved.
 //
 
 #import "BusinessModel.h"
