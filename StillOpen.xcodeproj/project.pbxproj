@@ -27,6 +27,7 @@
 		00BC832916C89505007967C5 /* StarFullLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BC832116C89505007967C5 /* StarFullLarge.png */; };
 		00BC832A16C89505007967C5 /* StarFullLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BC832216C89505007967C5 /* StarFullLarge@2x.png */; };
 		00C84CF316C6E72C00E77E92 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C84CF216C6E72C00E77E92 /* Default-568h@2x.png */; };
+		00CE22C9175E93CC000E4F0C /* DisplayWebpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE22C8175E93CC000E4F0C /* DisplayWebpageViewController.m */; };
 		1D3623260D0F684500981E51 /* StillOpenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* StillOpenAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -77,6 +78,8 @@
 		00BC832116C89505007967C5 /* StarFullLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StarFullLarge.png; path = Resources/StarFullLarge.png; sourceTree = "<group>"; };
 		00BC832216C89505007967C5 /* StarFullLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StarFullLarge@2x.png"; path = "Resources/StarFullLarge@2x.png"; sourceTree = "<group>"; };
 		00C84CF216C6E72C00E77E92 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		00CE22C7175E93CC000E4F0C /* DisplayWebpageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayWebpageViewController.h; sourceTree = "<group>"; };
+		00CE22C8175E93CC000E4F0C /* DisplayWebpageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayWebpageViewController.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* StillOpenAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StillOpenAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* StillOpenAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StillOpenAppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				00CE22C7175E93CC000E4F0C /* DisplayWebpageViewController.h */,
+				00CE22C8175E93CC000E4F0C /* DisplayWebpageViewController.m */,
 				32054D9F11ED715500FE04C9 /* PlacesListViewController.h */,
 				32054DA011ED715500FE04C9 /* PlacesListViewController.m */,
 				32B60A5211DE44B600DDA847 /* DataReceiver.h */,
@@ -334,6 +339,7 @@
 				009FEDC316C6FE580051A7D5 /* LocationCell.m in Sources */,
 				00BC831916C894F9007967C5 /* DYRateView.m in Sources */,
 				00A6869716D1D61200E24922 /* PullToRefreshView.m in Sources */,
+				00CE22C9175E93CC000E4F0C /* DisplayWebpageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
