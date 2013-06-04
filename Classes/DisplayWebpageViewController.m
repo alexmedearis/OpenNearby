@@ -2,7 +2,7 @@
 //  DisplayWebpageViewController.m
 //  StillOpen
 //
-//  Created by Andy Dufresne on 6/4/13.
+//  Created by Alex Medearis on 6/4/13.
 //
 //
 

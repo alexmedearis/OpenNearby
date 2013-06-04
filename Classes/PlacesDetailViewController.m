@@ -9,6 +9,7 @@
 #import "PlacesDetailViewController.h"
 #import "DataProvider.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+#import "DisplayWebpageViewController.h"
 
 @implementation PlacesDetailViewController
 
@@ -109,9 +110,14 @@
 	NSURL * phoneNumberURL = [NSURL URLWithString:self.business.phone];
 	[[UIApplication sharedApplication] openURL:phoneNumberURL];
 }
+
 - (IBAction) mainClicked: (id)sender
 {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.business.mobileUrl]];
+    if(self.business.mobileUrl && self.business.mobileUrl.length > 0){
+        DisplayWebpageViewController * display = [[DisplayWebpageViewController alloc] init];
+        display.url = self.business.mobileUrl;
+        [self.navigationController pushViewController:display animated:YES];
+    }
 }
 
 - (IBAction) directionsClicked: (id)sender
@@ -208,6 +214,9 @@
                 self.business.image = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=%@&sensor=true&key=%@", photosArr[0][@"photo_reference"], API_KEY];
             }
         
+        }
+        if(business[@"url"]){
+            self.business.mobileUrl = business[@"url"];
         }
         [self updateUI];
     }
