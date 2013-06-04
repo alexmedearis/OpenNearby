@@ -28,6 +28,7 @@
 		00BC832A16C89505007967C5 /* StarFullLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BC832216C89505007967C5 /* StarFullLarge@2x.png */; };
 		00C84CF316C6E72C00E77E92 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C84CF216C6E72C00E77E92 /* Default-568h@2x.png */; };
 		00CE22C9175E93CC000E4F0C /* DisplayWebpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CE22C8175E93CC000E4F0C /* DisplayWebpageViewController.m */; };
+		00CE22CB175E9401000E4F0C /* DisplayWebpageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CE22CA175E9401000E4F0C /* DisplayWebpageViewController.xib */; };
 		1D3623260D0F684500981E51 /* StillOpenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* StillOpenAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -80,6 +81,7 @@
 		00C84CF216C6E72C00E77E92 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
 		00CE22C7175E93CC000E4F0C /* DisplayWebpageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayWebpageViewController.h; sourceTree = "<group>"; };
 		00CE22C8175E93CC000E4F0C /* DisplayWebpageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayWebpageViewController.m; sourceTree = "<group>"; };
+		00CE22CA175E9401000E4F0C /* DisplayWebpageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayWebpageViewController.xib; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* StillOpenAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StillOpenAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* StillOpenAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StillOpenAppDelegate.m; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				326F5AE311EA8B8C00A554F0 /* headerlogo@2x.png */,
 				3224A51411D6A77900A11CAC /* PlacesList.xib */,
 				326B317411D6ABD400172326 /* MainWindow.xib */,
+				00CE22CA175E9401000E4F0C /* DisplayWebpageViewController.xib */,
 				8D1107310486CEB800E47090 /* StillOpen-Info.plist */,
 				32DFBE5611E28815008A1E87 /* PlacesDetail.xib */,
 			);
@@ -318,6 +321,7 @@
 				00BC832A16C89505007967C5 /* StarFullLarge@2x.png in Resources */,
 				00A6869B16D1D61B00E24922 /* arrow.png in Resources */,
 				00A6869C16D1D61B00E24922 /* arrow@2x.png in Resources */,
+				00CE22CB175E9401000E4F0C /* DisplayWebpageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
