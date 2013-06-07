@@ -26,6 +26,11 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>LifeSavers-Regular.ttf</string>
+		<string>LifeSavers-Bold.ttf</string>
+	</array>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
 </dict>

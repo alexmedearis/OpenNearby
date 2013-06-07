@@ -25,10 +25,10 @@
     self.imageView.frame = CGRectMake( 10, 10, 25, 25 ); // your positioning here
     
     CGRect oldFrame = self.textLabel.frame;
-    self.textLabel.frame = CGRectMake( oldFrame.origin.x, oldFrame.origin.y + 3, oldFrame.size.width, oldFrame.size.height);
+    self.textLabel.frame = CGRectMake( oldFrame.origin.x, oldFrame.origin.y, oldFrame.size.width, oldFrame.size.height);
     
     oldFrame = self.detailTextLabel.frame;
-    self.detailTextLabel.frame =  CGRectMake( oldFrame.origin.x, oldFrame.origin.y - 3, oldFrame.size.width, oldFrame.size.height);
+    self.detailTextLabel.frame =  CGRectMake( oldFrame.origin.x, oldFrame.origin.y + 2, oldFrame.size.width, oldFrame.size.height);
 
 }
 @end

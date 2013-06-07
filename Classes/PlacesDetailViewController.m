@@ -32,7 +32,10 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
+    [call.titleLabel setFont:[UIFont fontWithName:@"LifeSavers-Regular" size:call.titleLabel.font.pointSize]];
+    [directions.titleLabel setFont:[UIFont fontWithName:@"LifeSavers-Regular" size:directions.titleLabel.font.pointSize]];
+    
     // Initialize HUD
     self.HUD = [[MBProgressHUD alloc] initWithView:self.view];
     [self.view addSubview:self.HUD];
@@ -64,7 +67,7 @@
 - (void)updateUI{
 	// Set Title and Background
 	UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 30)];
-	[label setFont:[UIFont fontWithName:@"Noteworthy-Light" size:20.0]];
+	[label setFont:[UIFont fontWithName:@"LifeSavers-Regular" size:20.0]];
 	[label setBackgroundColor:[UIColor clearColor]];
 	[label setTextColor:[UIColor whiteColor]];
 	[label setText:self.business.name];
@@ -242,6 +245,7 @@
     starRatings = nil;
     hours = nil;
     price = nil;
+    directions = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

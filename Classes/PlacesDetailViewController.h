@@ -25,6 +25,7 @@
     IBOutlet UILabel *price;
 	IBOutlet UIButton * main;
 	IBOutlet UIButton * call;
+    IBOutlet UIButton * directions;
 }
 
 @property (strong) LocationProvider * locationProvider;

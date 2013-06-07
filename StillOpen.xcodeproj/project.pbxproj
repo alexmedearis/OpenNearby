@@ -17,6 +17,9 @@
 		00A6869B16D1D61B00E24922 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A6869916D1D61B00E24922 /* arrow.png */; };
 		00A6869C16D1D61B00E24922 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A6869A16D1D61B00E24922 /* arrow@2x.png */; };
 		00A6869E16D1D72800E24922 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A6869D16D1D72800E24922 /* QuartzCore.framework */; };
+		00AE40451762A3A40021FB08 /* CustomFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AE40441762A3A40021FB08 /* CustomFontLabel.m */; };
+		00AE40481762A3CB0021FB08 /* LifeSavers-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00AE40461762A3CB0021FB08 /* LifeSavers-Bold.ttf */; };
+		00AE40491762A3CB0021FB08 /* LifeSavers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00AE40471762A3CB0021FB08 /* LifeSavers-Regular.ttf */; };
 		00BC831916C894F9007967C5 /* DYRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC831816C894F9007967C5 /* DYRateView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		00BC832316C89505007967C5 /* StarEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BC831B16C89505007967C5 /* StarEmpty.png */; };
 		00BC832416C89505007967C5 /* StarEmpty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BC831C16C89505007967C5 /* StarEmpty@2x.png */; };
@@ -72,6 +75,10 @@
 		00A6869916D1D61B00E24922 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = Resources/arrow.png; sourceTree = "<group>"; };
 		00A6869A16D1D61B00E24922 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow@2x.png"; path = "Resources/arrow@2x.png"; sourceTree = "<group>"; };
 		00A6869D16D1D72800E24922 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00AE40431762A3A40021FB08 /* CustomFontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFontLabel.h; sourceTree = "<group>"; };
+		00AE40441762A3A40021FB08 /* CustomFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFontLabel.m; sourceTree = "<group>"; };
+		00AE40461762A3CB0021FB08 /* LifeSavers-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LifeSavers-Bold.ttf"; sourceTree = "<group>"; };
+		00AE40471762A3CB0021FB08 /* LifeSavers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LifeSavers-Regular.ttf"; sourceTree = "<group>"; };
 		00BC831716C894F9007967C5 /* DYRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYRateView.h; path = Classes/DYRateView.h; sourceTree = "<group>"; };
 		00BC831816C894F9007967C5 /* DYRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYRateView.m; path = Classes/DYRateView.m; sourceTree = "<group>"; };
 		00BC831B16C89505007967C5 /* StarEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StarEmpty.png; path = Resources/StarEmpty.png; sourceTree = "<group>"; };
@@ -191,6 +198,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				00AE40431762A3A40021FB08 /* CustomFontLabel.h */,
+				00AE40441762A3A40021FB08 /* CustomFontLabel.m */,
 				00CE22C7175E93CC000E4F0C /* DisplayWebpageViewController.h */,
 				00CE22C8175E93CC000E4F0C /* DisplayWebpageViewController.m */,
 				32054D9F11ED715500FE04C9 /* PlacesListViewController.h */,
@@ -252,6 +261,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				00AE40461762A3CB0021FB08 /* LifeSavers-Bold.ttf */,
+				00AE40471762A3CB0021FB08 /* LifeSavers-Regular.ttf */,
 				00C84CF216C6E72C00E77E92 /* Default-568h@2x.png */,
 				3211112E11F978ED006098F1 /* Default.png */,
 				3211112F11F978ED006098F1 /* Default@2x.png */,
@@ -402,6 +413,8 @@
 				00A6869B16D1D61B00E24922 /* arrow.png in Resources */,
 				00A6869C16D1D61B00E24922 /* arrow@2x.png in Resources */,
 				00D269F9175FFB5300A1E536 /* AppiraterLocalizable.strings in Resources */,
+				00AE40481762A3CB0021FB08 /* LifeSavers-Bold.ttf in Resources */,
+				00AE40491762A3CB0021FB08 /* LifeSavers-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +438,7 @@
 				00A6869716D1D61200E24922 /* PullToRefreshView.m in Sources */,
 				00CE22C9175E93CC000E4F0C /* DisplayWebpageViewController.m in Sources */,
 				00D269F8175FFB5300A1E536 /* Appirater.m in Sources */,
+				00AE40451762A3A40021FB08 /* CustomFontLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

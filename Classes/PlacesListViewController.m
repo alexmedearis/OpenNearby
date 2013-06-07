@@ -170,11 +170,11 @@
         
         //  Customize fonts
         
-        UIFont *titleFont = [UIFont fontWithName:@"Noteworthy-Light" size:18.0];
+        UIFont *titleFont = [UIFont fontWithName:@"LifeSavers-Regular" size:16.0];
         [[cell textLabel] setFont:titleFont];
         [[cell textLabel] setBackgroundColor:[UIColor clearColor]];
         
-        UIFont *detailFont = [UIFont fontWithName:@"Noteworthy-Light" size:14.0];
+        UIFont *detailFont = [UIFont fontWithName:@"LifeSavers-Regular" size:10.0];
         [[cell detailTextLabel] setFont:detailFont];
         [[cell detailTextLabel] setBackgroundColor:[UIColor clearColor]];
     }
