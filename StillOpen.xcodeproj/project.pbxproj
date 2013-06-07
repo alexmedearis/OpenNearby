@@ -121,7 +121,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* StillOpenAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StillOpenAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* StillOpenAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StillOpenAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* Still Open.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Still Open.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Open Nearby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Nearby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = "<group>"; };
@@ -216,7 +216,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Still Open.app */,
+				1D6058910D05DD3D006BFB54 /* Open Nearby.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 			);
 			name = StillOpen;
 			productName = StillOpen;
-			productReference = 1D6058910D05DD3D006BFB54 /* Still Open.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* Open Nearby.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -483,7 +483,7 @@
 				GCC_PREFIX_HEADER = StillOpen_Prefix.pch;
 				INFOPLIST_FILE = "StillOpen-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "Still Open";
+				PRODUCT_NAME = "Open Nearby";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				GCC_PREFIX_HEADER = StillOpen_Prefix.pch;
 				INFOPLIST_FILE = "StillOpen-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = StillOpen;
+				PRODUCT_NAME = "Open Nearby";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
