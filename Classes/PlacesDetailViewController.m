@@ -220,6 +220,9 @@
         }
         if(business[@"url"]){
             self.business.mobileUrl = business[@"url"];
+            self.disclosureView.hidden = NO;
+        } else {
+            self.disclosureView.hidden = YES;
         }
         [self updateUI];
     }
@@ -246,7 +249,6 @@
     hours = nil;
     price = nil;
     directions = nil;
-    disclosureView = nil;
     [self setDisclosureView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.

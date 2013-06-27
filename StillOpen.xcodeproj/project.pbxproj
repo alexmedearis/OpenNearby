@@ -80,7 +80,7 @@
 		00AE40441762A3A40021FB08 /* CustomFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFontLabel.m; sourceTree = "<group>"; };
 		00AE40461762A3CB0021FB08 /* LifeSavers-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LifeSavers-Bold.ttf"; sourceTree = "<group>"; };
 		00AE40471762A3CB0021FB08 /* LifeSavers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LifeSavers-Regular.ttf"; sourceTree = "<group>"; };
-		00BB0DEB177CFFBD00C1F082 /* DisplayWebpageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayWebpageViewController.xib; sourceTree = "<group>"; };
+		00BB0DEB177CFFBD00C1F082 /* DisplayWebpageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DisplayWebpageViewController.xib; path = Resources/DisplayWebpageViewController.xib; sourceTree = "<group>"; };
 		00BC831716C894F9007967C5 /* DYRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYRateView.h; path = Classes/DYRateView.h; sourceTree = "<group>"; };
 		00BC831816C894F9007967C5 /* DYRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYRateView.m; path = Classes/DYRateView.m; sourceTree = "<group>"; };
 		00BC831B16C89505007967C5 /* StarEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StarEmpty.png; path = Resources/StarEmpty.png; sourceTree = "<group>"; };
