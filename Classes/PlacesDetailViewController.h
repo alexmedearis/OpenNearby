@@ -28,6 +28,8 @@
     IBOutlet UIButton * directions;
 }
 
+@property (weak, nonatomic) IBOutlet UILabel *disclosureView;
+
 @property (strong) LocationProvider * locationProvider;
 @property (strong) BusinessModel * business;
 @property (strong) NSURLConnection * connection;

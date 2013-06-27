@@ -20,6 +20,7 @@
 		00AE40451762A3A40021FB08 /* CustomFontLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AE40441762A3A40021FB08 /* CustomFontLabel.m */; };
 		00AE40481762A3CB0021FB08 /* LifeSavers-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00AE40461762A3CB0021FB08 /* LifeSavers-Bold.ttf */; };
 		00AE40491762A3CB0021FB08 /* LifeSavers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00AE40471762A3CB0021FB08 /* LifeSavers-Regular.ttf */; };
+		00BB0DEC177CFFBD00C1F082 /* DisplayWebpageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00BB0DEB177CFFBD00C1F082 /* DisplayWebpageViewController.xib */; };
 		00BC831916C894F9007967C5 /* DYRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BC831816C894F9007967C5 /* DYRateView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		00BC832316C89505007967C5 /* StarEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BC831B16C89505007967C5 /* StarEmpty.png */; };
 		00BC832416C89505007967C5 /* StarEmpty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BC831C16C89505007967C5 /* StarEmpty@2x.png */; };
@@ -79,6 +80,7 @@
 		00AE40441762A3A40021FB08 /* CustomFontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFontLabel.m; sourceTree = "<group>"; };
 		00AE40461762A3CB0021FB08 /* LifeSavers-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LifeSavers-Bold.ttf"; sourceTree = "<group>"; };
 		00AE40471762A3CB0021FB08 /* LifeSavers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LifeSavers-Regular.ttf"; sourceTree = "<group>"; };
+		00BB0DEB177CFFBD00C1F082 /* DisplayWebpageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayWebpageViewController.xib; sourceTree = "<group>"; };
 		00BC831716C894F9007967C5 /* DYRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYRateView.h; path = Classes/DYRateView.h; sourceTree = "<group>"; };
 		00BC831816C894F9007967C5 /* DYRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYRateView.m; path = Classes/DYRateView.m; sourceTree = "<group>"; };
 		00BC831B16C89505007967C5 /* StarEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StarEmpty.png; path = Resources/StarEmpty.png; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				00CE22CA175E9401000E4F0C /* Default-568h@2x.png */,
 				8D1107310486CEB800E47090 /* StillOpen-Info.plist */,
 				32DFBE5611E28815008A1E87 /* PlacesDetail.xib */,
+				00BB0DEB177CFFBD00C1F082 /* DisplayWebpageViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				00D269F9175FFB5300A1E536 /* AppiraterLocalizable.strings in Resources */,
 				00AE40481762A3CB0021FB08 /* LifeSavers-Bold.ttf in Resources */,
 				00AE40491762A3CB0021FB08 /* LifeSavers-Regular.ttf in Resources */,
+				00BB0DEC177CFFBD00C1F082 /* DisplayWebpageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Medearis (96KPLGKX5U)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,6 +503,7 @@
 				INFOPLIST_FILE = "StillOpen-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "Open Nearby";
+				PROVISIONING_PROFILE = "03CA6650-CAC7-4DE5-BBEB-854D47A28E5F";
 			};
 			name = Debug;
 		};
@@ -506,6 +512,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alex Medearis";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -516,6 +524,8 @@
 				INFOPLIST_FILE = "StillOpen-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "Open Nearby";
+				PROVISIONING_PROFILE = "29F9F544-7095-4A8E-BE20-5D7B7D460C2E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
