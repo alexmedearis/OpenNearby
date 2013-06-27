@@ -14,12 +14,14 @@
 #import "PullToRefreshView.h"
 
 @interface PlacesListViewController : UIViewController<DataReceiver, PullToRefreshViewDelegate, ADBannerViewDelegate> {
-	IBOutlet UITableView * tView;
-	IBOutlet UIButton * reloadButton;
-    BOOL haveReceivedData;
+
 }
 
 @property (weak, nonatomic) IBOutlet ADBannerView *adBanner;
+@property (weak, nonatomic) IBOutlet UITableView * tView;
+@property (weak, nonatomic) IBOutlet UIButton * reloadButton;
+@property (nonatomic) BOOL haveReceivedData;
+
 @property (strong) DataProvider * dataProvider;
 @property (strong) NSMutableArray * openBusinesses;
 @property (strong) MBProgressHUD * HUD;

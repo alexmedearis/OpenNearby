@@ -15,20 +15,21 @@
 
 
 @interface PlacesDetailViewController : UIViewController<MKMapViewDelegate> {
-	IBOutlet MKMapView * mView;
-	IBOutlet UILabel * name;
-	IBOutlet UILabel * address;
-	IBOutlet UILabel * category;
-	IBOutlet UIImageView * locationImg;
-    IBOutlet DYRateView *starRatings;
-    IBOutlet UILabel *hours;
-    IBOutlet UILabel *price;
-	IBOutlet UIButton * main;
-	IBOutlet UIButton * call;
-    IBOutlet UIButton * directions;
+
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *disclosureView;
+@property (weak, nonatomic) IBOutlet MKMapView * mView;
+@property (weak, nonatomic) IBOutlet UILabel * name;
+@property (weak, nonatomic) IBOutlet UILabel * address;
+@property (weak, nonatomic) IBOutlet UILabel * category;
+@property (weak, nonatomic) IBOutlet UIImageView * locationImg;
+@property (weak, nonatomic) IBOutlet DYRateView *starRatings;
+@property (weak, nonatomic) IBOutlet UILabel *hours;
+@property (weak, nonatomic) IBOutlet UILabel *price;
+@property (weak, nonatomic) IBOutlet UIButton * main;
+@property (weak, nonatomic) IBOutlet UIButton * call;
+@property (weak, nonatomic) IBOutlet UIButton * directions;
 
 @property (strong) LocationProvider * locationProvider;
 @property (strong) BusinessModel * business;

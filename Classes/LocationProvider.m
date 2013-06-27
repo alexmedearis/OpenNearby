@@ -16,19 +16,19 @@
 
 @synthesize locationManager;
 
-- (id) initWithLocationDelegate:(id<LocationReceiver>)_delegate {
+- (id) initWithLocationDelegate:(id<LocationReceiver>)delegate {
     self = [super init];
     if (self != nil) {
         self.locationManager = [[CLLocationManager alloc] init];
         self.locationManager.delegate = self; // send loc updates to myself
-		delegate = _delegate;
+		self.delegate = delegate;
     }
     return self;
 }
 
 -(void) getLocation
 {
-	hasReturnedLocation = false;
+	self.hasReturnedLocation = false;
 	[locationManager startUpdatingLocation];
 }
 
@@ -37,7 +37,7 @@
            fromLocation:(CLLocation *)oldLocation
 {
 	// If we already returned a location for this time around, just return
-	if(hasReturnedLocation)
+	if(self.hasReturnedLocation)
 	{
 		return;
 	}
@@ -59,21 +59,21 @@
 		return;
 	
 
-	[delegate locationReceived:newLocation];
+	[self.delegate locationReceived:newLocation];
 	[locationManager stopUpdatingLocation];
-	hasReturnedLocation = true;
+	self.hasReturnedLocation = true;
 	
-	lastLocation = newLocation;
+	self.lastLocation = newLocation;
 }
 
 - (void)locationManager:(CLLocationManager *)manager
 	   didFailWithError:(NSError *)error
 {
-    [delegate locationError];
+    [self.delegate locationError];
 }
 
 - (CLLocationCoordinate2D) coordinate {
-	CLLocationCoordinate2D coord = {lastLocation.coordinate.latitude, lastLocation.coordinate.longitude};
+	CLLocationCoordinate2D coord = {self.lastLocation.coordinate.latitude, self.lastLocation.coordinate.longitude};
 	return coord;
 }
 

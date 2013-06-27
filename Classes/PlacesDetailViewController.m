@@ -33,8 +33,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [call.titleLabel setFont:[UIFont fontWithName:@"LifeSavers-Regular" size:call.titleLabel.font.pointSize]];
-    [directions.titleLabel setFont:[UIFont fontWithName:@"LifeSavers-Regular" size:directions.titleLabel.font.pointSize]];
+    [self.call.titleLabel setFont:[UIFont fontWithName:@"LifeSavers-Regular" size:self.call.titleLabel.font.pointSize]];
+    [self.directions.titleLabel setFont:[UIFont fontWithName:@"LifeSavers-Regular" size:self.directions.titleLabel.font.pointSize]];
     
     // Initialize HUD
     self.HUD = [[MBProgressHUD alloc] initWithView:self.view];
@@ -52,12 +52,12 @@
 	region.span = span;
 	region.center = location;
 	
-	[mView setRegion:region animated:YES];
-	[mView setDelegate:self];
+	[self.mView setRegion:region animated:YES];
+	[self.mView setDelegate:self];
 	
-	[mView addAnnotation:self.business];
+	[self.mView addAnnotation:self.business];
 	//[mView addAnnotation:self.locationProvider];
-	[mView selectAnnotation:self.business animated:YES];
+	[self.mView selectAnnotation:self.business animated:YES];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[self getUrl:self.business]];
 	self.connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
@@ -76,18 +76,18 @@
 	self.navigationItem.titleView = label;
 	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
     
-	[name setText:self.business.name];
-	[address setText:self.business.address];
-    [hours setText:self.business.hours];
-    [price setText:self.business.price];
+	[self.name setText:self.business.name];
+	[self.address setText:self.business.address];
+    [self.hours setText:self.business.hours];
+    [self.price setText:self.business.price];
 	
     NSString * callText = [NSString stringWithFormat:@"Call: %@", self.business.phone];
-	[call setTitle:callText forState:UIControlStateNormal];
-	[call setTitle:callText forState:UIControlStateHighlighted];
+	[self.call setTitle:callText forState:UIControlStateNormal];
+	[self.call setTitle:callText forState:UIControlStateHighlighted];
 	
-	starRatings.rate = self.business.rating;
+	self.starRatings.rate = self.business.rating;
     
-    [locationImg setImageWithURL:[NSURL URLWithString:self.business.image] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
+    [self.locationImg setImageWithURL:[NSURL URLWithString:self.business.image] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
 }
 
 - (NSURL *)getUrl:(BusinessModel *)business {
@@ -168,7 +168,7 @@
         for(NSString * categoryStr in categoryArr)
         {
             [categories appendString:categoryStr];
-            if(category != [categoryArr lastObject])
+            if(self.category != [categoryArr lastObject])
             {
                 [categories appendString:@", "];
             }
@@ -245,11 +245,11 @@
 }
 
 - (void)viewDidUnload {
-    starRatings = nil;
-    hours = nil;
-    price = nil;
-    directions = nil;
-    [self setDisclosureView:nil];
+    self.starRatings = nil;
+    self.hours = nil;
+    self.price = nil;
+    self.directions = nil;
+    self.disclosureView = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

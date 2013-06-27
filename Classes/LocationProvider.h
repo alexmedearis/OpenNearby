@@ -12,11 +12,12 @@
 
 
 @interface LocationProvider : NSObject <CLLocationManagerDelegate, MKAnnotation> {
-	CLLocationManager *locationManager;
-	id<LocationReceiver> delegate;
-	CLLocation * lastLocation;
-	bool hasReturnedLocation;
+
 }
+
+@property (strong) id<LocationReceiver> delegate;
+@property (strong) CLLocation * lastLocation;
+@property (assign) bool hasReturnedLocation;
 
 @property (nonatomic, strong) CLLocationManager *locationManager;  
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;

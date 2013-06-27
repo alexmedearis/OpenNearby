@@ -23,16 +23,17 @@
     [Appirater setAppId:@"604952162"];
     
 	// Create the nav controller
-	mainNavController = [[UINavigationController alloc] init];
+	UINavigationController * mainNavController = [[UINavigationController alloc] init];
 	mainNavController.navigationBar.tintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
 												 
 	// Create the place list and start it loading
-	placesList = [[PlacesListViewController alloc] initWithNibName:@"PlacesList" bundle:[NSBundle mainBundle]];
+	PlacesListViewController * placesList = [[PlacesListViewController alloc] initWithNibName:@"PlacesList" bundle:[NSBundle mainBundle]];
 	[mainNavController pushViewController:placesList animated:NO];
+    self.placesList = placesList;
     
     [self.window setRootViewController:mainNavController];
-
-	
+	self.mainNavController = mainNavController;
+    
 	// Display
     [window makeKeyAndVisible];
 	
@@ -72,8 +73,8 @@
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
      */
-	[mainNavController popToRootViewControllerAnimated:FALSE];
-	enteredBackground = [NSDate date];
+	[self.mainNavController popToRootViewControllerAnimated:FALSE];
+	self.enteredBackground = [NSDate date];
 }
 
 
@@ -92,7 +93,7 @@
 	// If it has been more than 5 minutes, refresh
 	//if ([enteredBackground timeIntervalSinceReferenceDate] < [[NSDate date] timeIntervalSinceReferenceDate] - 60 * 5) {
 	if(true){
-		[placesList reload];
+		[self.placesList reload];
 	}
 }
 

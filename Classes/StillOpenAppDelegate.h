@@ -10,13 +10,14 @@
 #import "PlacesListViewController.h"
 
 @interface StillOpenAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow * window;
-	UINavigationController * mainNavController;
-	PlacesListViewController * placesList;
-	NSDate * enteredBackground;
+
 }
 
 @property (nonatomic, strong) IBOutlet UIWindow *window;
+@property (nonatomic, weak) IBOutlet UINavigationController * mainNavController;
+@property (nonatomic, weak) IBOutlet PlacesListViewController * placesList;
+@property (nonatomic, strong) IBOutlet NSDate * enteredBackground;
+
 
 @end
 

@@ -22,7 +22,7 @@
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        haveReceivedData = false;
+        self.haveReceivedData = false;
         self.dataProvider = [[DataProvider alloc] initWithDataDelegate:self];
     }
     return self;
@@ -40,18 +40,18 @@
 	
 	// Set backtround
     //[tView setBackgroundView:nil];
-	tView.backgroundColor = [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.4f];
+	self.tView.backgroundColor = [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.4f];
     //tView.frame = CGRectMake(10, 40, 300, 380);
-    [tView.layer setCornerRadius:8.0f];
+    [self.tView.layer setCornerRadius:8.0f];
 	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
     
     // Initialize HUD
     self.HUD = [[MBProgressHUD alloc] initWithView:self.view];
     [self.view addSubview:self.HUD];
     
-    self.pull = [[PullToRefreshView alloc] initWithScrollView:(UIScrollView *) tView];
+    self.pull = [[PullToRefreshView alloc] initWithScrollView:(UIScrollView *) self.tView];
     [self.pull setDelegate:self];
-    [tView addSubview:self.pull];
+    [self.tView addSubview:self.pull];
     
     [self reload];
 }
@@ -96,10 +96,10 @@
 #pragma mark DataReceiver Protocol
 - (void) dataReceived:(NSMutableArray *) openBusinesses
 {
-    haveReceivedData = true;
+    self.haveReceivedData = true;
 	[self.HUD hide:YES];
 	self.openBusinesses = openBusinesses;
-	[tView reloadData];
+	[self.tView reloadData];
     [self.pull finishedLoading];
 }
 
@@ -142,7 +142,7 @@
 	{
         if(self.dataProvider.nextPageKey){
             return [self.openBusinesses count] + 1;
-        } else if(self.openBusinesses.count == 0 && haveReceivedData){
+        } else if(self.openBusinesses.count == 0 && self.haveReceivedData){
             return 1;
         } else {
             return [self.openBusinesses count];
