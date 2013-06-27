@@ -38,6 +38,8 @@
     [window makeKeyAndVisible];
 	
     [Appirater appLaunched:YES];
+    [Appirater setDaysUntilPrompt:3];
+    [Appirater setUsesUntilPrompt:3];
     
     // List all fonts on iPhone
     NSArray *familyNames = [[NSArray alloc] initWithArray:[UIFont familyNames]];
