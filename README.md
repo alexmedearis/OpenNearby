@@ -1,10 +1,10 @@
-Still Open
+Open Nearby
 =========
-Still Open is an app for iOS that shows you cafes, liquor stores, restaurants and diners that are nearby and still open.
+Open Nearby is an app for iOS that shows you cafes, liquor stores, restaurants and diners that are nearby and open nearby.
 
 Version
 -
-1.0
+1.1
 
 Tech
 -----------
