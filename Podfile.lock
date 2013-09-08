@@ -1,0 +1,16 @@
+PODS:
+  - Appirater (1.0.5)
+  - DYRateView (0.0.2)
+  - MBProgressHUD (0.7)
+
+DEPENDENCIES:
+  - Appirater (= 1.0.5)
+  - DYRateView
+  - MBProgressHUD
+
+SPEC CHECKSUMS:
+  Appirater: 5addfe3fac0aa85209b553f894b6b0533152786f
+  DYRateView: ed57ab9f1ff4298bdd808591ffa654df2d43c7da
+  MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
+
+COCOAPODS: 0.24.0
