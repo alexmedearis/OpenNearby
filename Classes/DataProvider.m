@@ -57,7 +57,7 @@
 
 - (NSURL*) getURL:(double)latitide longitude:(double)longitude
 {
-	NSString *urlString = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=%@&location=%.4f,%.4f&sensor=true&rankby=distance&types=bakery%%7Ccafe%%7Cfood%%7Cgrocery_or_supermarket%%7Cliquor_store%%7Cmeal_takeaway%%7Crestaurant", API_KEY, latitide, longitude];
+	NSString *urlString = [NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=%@&location=%.4f,%.4f&sensor=true&opennow=true&rankby=distance&types=bakery%%7Ccafe%%7Cfood%%7Cgrocery_or_supermarket%%7Cliquor_store%%7Cmeal_takeaway%%7Crestaurant", API_KEY, latitide, longitude];
     NSLog(@"%@", urlString);
 	return [NSURL URLWithString:urlString];
 }

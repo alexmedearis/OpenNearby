@@ -53,6 +53,12 @@
     [self.pull setDelegate:self];
     [self.tView addSubview:self.pull];
     
+    // Set Title and Background
+    [[UINavigationBar appearance] setTitleTextAttributes: @{
+                                UITextAttributeTextColor: [UIColor whiteColor],
+                                     UITextAttributeFont: [UIFont fontWithName:@"LifeSavers-Regular" size:20.0]
+     }];
+    
     [self reload];
 }
 

@@ -23,6 +23,7 @@
 			 business:(BusinessModel *)business locationProvider:(LocationProvider *)locationProvider{
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         self.business = business;
+        self.title = self.business.name;
 		self.locationProvider = locationProvider;
         self.responseData = [NSMutableData data];
     }
@@ -65,15 +66,6 @@
 }
 
 - (void)updateUI{
-	// Set Title and Background
-	UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 30)];
-	[label setFont:[UIFont fontWithName:@"LifeSavers-Regular" size:20.0]];
-	[label setBackgroundColor:[UIColor clearColor]];
-	[label setTextColor:[UIColor whiteColor]];
-	[label setText:self.business.name];
-	[label setTextAlignment:NSTextAlignmentCenter];
-    
-	self.navigationItem.titleView = label;
 	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
     
 	[self.name setText:self.business.name];
