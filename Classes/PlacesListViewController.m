@@ -37,7 +37,10 @@
     
 	// Set custom image to nav bar
 	self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"headerlogo"]];
-	
+	self.navigationController.navigationBar.translucent = NO;
+    //self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
+    
 	// Set backtround
     //[tView setBackgroundView:nil];
 	self.tView.backgroundColor = [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:0.4f];

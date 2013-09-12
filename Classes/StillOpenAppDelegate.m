@@ -24,7 +24,7 @@
     
 	// Create the nav controller
 	UINavigationController * mainNavController = [[UINavigationController alloc] init];
-	mainNavController.navigationBar.tintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
+
 												 
 	// Create the place list and start it loading
 	PlacesListViewController * placesList = [[PlacesListViewController alloc] initWithNibName:@"PlacesList" bundle:[NSBundle mainBundle]];
