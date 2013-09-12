@@ -25,7 +25,7 @@
     
 	// Create the nav controller
 	RotationNavigationController * mainNavController = [[RotationNavigationController alloc] init];
-
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 												 
 	// Create the place list and start it loading
 	PlacesListViewController * placesList = [[PlacesListViewController alloc] initWithNibName:@"PlacesList" bundle:[NSBundle mainBundle]];

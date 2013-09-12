@@ -31,6 +31,8 @@
 		<string>LifeSavers-Regular.ttf</string>
 		<string>LifeSavers-Bold.ttf</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

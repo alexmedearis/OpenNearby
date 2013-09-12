@@ -64,6 +64,12 @@
                                      UITextAttributeFont: [UIFont fontWithName:@"LifeSavers-Regular" size:20.0]
      }];
     
+    // Just show the chevron for title in iOS 7... Not a great solution but this will work for now
+    if (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1) {
+        self.title = @"";
+
+    }
+
     [self reload];
 }
 

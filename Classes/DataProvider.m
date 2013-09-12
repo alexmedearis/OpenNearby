@@ -31,7 +31,6 @@
 
 -(void) getData
 {
-    self.toReturn = [[NSMutableArray alloc] initWithCapacity:5];
 	[self.responseData setLength:0];
 	[self.locationProvider getLocation];
 }
@@ -49,6 +48,7 @@
 
 - (void) sendRequestWithLat:(double)latitude longitude:(double)longitude
 {
+    self.toReturn = [[NSMutableArray alloc] initWithCapacity:5];
     self.lastLat = latitude;
     self.lastLong = longitude;
 	NSURLRequest *request = [NSURLRequest requestWithURL:[self getURL:latitude longitude:longitude]];
