@@ -73,9 +73,12 @@
     [self.hours setText:self.business.hours];
     [self.price setText:self.business.price];
 	
-    NSString * callText = [NSString stringWithFormat:@"Call: %@", self.business.phone];
-	[self.call setTitle:callText forState:UIControlStateNormal];
-	[self.call setTitle:callText forState:UIControlStateHighlighted];
+    if(self.business.phone && ![self.business.phone isEqualToString:@"0"]) {
+        NSString * callText = [NSString stringWithFormat:@"Call: %@", self.business.phone];
+        [self.call setTitle:callText forState:UIControlStateNormal];
+    } else {
+        [self.call setTitle:@"No Phone Info" forState:UIControlStateNormal];
+    }
 	
 	self.starRatings.rate = self.business.rating;
     
@@ -187,15 +190,17 @@
                 if(periods.count >= weekday) {
                     int open = -1;
                     int close = -1;
-                    if(periods[weekday][@"open"]){
-                        if(periods[weekday][@"open"][@"time"]){
-                            open = [periods[weekday][@"open"][@"time"] intValue];
+                    if(periods[weekday]){
+                        if(periods[weekday][@"open"]){
+                            if(periods[weekday][@"open"][@"time"]){
+                                open = [periods[weekday][@"open"][@"time"] intValue];
+                            }
                         }
-                    }
-                    if(periods[weekday][@"close"]){
-                        if(periods[weekday][@"close"][@"time"]){
-                            close = [periods[weekday][@"close"][@"time"] intValue];
-                        }
+                        if(periods[weekday][@"close"]){
+                            if(periods[weekday][@"close"][@"time"]){
+                                close = [periods[weekday][@"close"][@"time"] intValue];
+                            }
+                        }                        
                     }
                     if(open != -1 && close != -1) {
                         self.business.hours = [NSString stringWithFormat:@"Hours: %@ - %@", [self getTimeString:open], [self getTimeString:close]];
