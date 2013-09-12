@@ -9,6 +9,7 @@
 #import "StillOpenAppDelegate.h"
 #import "PlacesListViewController.h"
 #import "Appirater.h"
+#import "RotationNavigationController.h"
 
 @implementation StillOpenAppDelegate
 
@@ -23,7 +24,7 @@
     [Appirater setAppId:@"604952162"];
     
 	// Create the nav controller
-	UINavigationController * mainNavController = [[UINavigationController alloc] init];
+	RotationNavigationController * mainNavController = [[RotationNavigationController alloc] init];
 
 												 
 	// Create the place list and start it loading
@@ -40,23 +41,6 @@
     [Appirater appLaunched:YES];
     [Appirater setDaysUntilPrompt:3];
     [Appirater setUsesUntilPrompt:3];
-    
-    // List all fonts on iPhone
-    NSArray *familyNames = [[NSArray alloc] initWithArray:[UIFont familyNames]];
-    NSArray *fontNames;
-    NSInteger indFamily, indFont;
-    for (indFamily=0; indFamily<[familyNames count]; ++indFamily)
-    {
-        NSLog(@"Family name: %@", [familyNames objectAtIndex:indFamily]);
-        fontNames = [[NSArray alloc] initWithArray:
-                     [UIFont fontNamesForFamilyName:
-                      [familyNames objectAtIndex:indFamily]]];
-        for (indFont=0; indFont<[fontNames count]; ++indFont)
-        {
-            NSLog(@"    Font name: %@", [fontNames objectAtIndex:indFont]);
-        }
-    }
-
     
 	return YES;
 }

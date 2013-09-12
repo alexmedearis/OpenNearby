@@ -32,14 +32,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.adBanner.requiredContentSizeIdentifiers = [NSSet setWithObject:ADBannerContentSizeIdentifierPortrait];
-    self.adBanner.currentContentSizeIdentifier = ADBannerContentSizeIdentifierPortrait;
+    [self.adBanner setAutoresizingMask:UIViewAutoresizingFlexibleWidth];
     
 	// Set custom image to nav bar
 	self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"headerlogo"]];
 	self.navigationController.navigationBar.translucent = NO;
-    //self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
+    if([self.navigationController.navigationBar respondsToSelector:@selector(setBarTintColor:)]) {
+        self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
+    } else {
+        self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0 green:0.2 blue:0.4 alpha:0];
+    }
     
 	// Set backtround
     //[tView setBackgroundView:nil];
@@ -250,5 +252,6 @@
 - (void)bannerViewActionDidFinish:(ADBannerView *)banner {
     
 }
+
 
 @end
