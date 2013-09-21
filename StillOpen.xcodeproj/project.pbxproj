@@ -21,7 +21,6 @@
 		00698C9E17E14733002C4C9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00698C9D17E14733002C4C9B /* Images.xcassets */; };
 		008E0DA116DAE7E600E2C15F /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008E0DA016DAE7E600E2C15F /* iAd.framework */; };
 		009FEDBC16C6FC7F0051A7D5 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 009FEDBB16C6FC7F0051A7D5 /* placeholder.png */; };
-		009FEDBE16C6FCA90051A7D5 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009FEDBD16C6FCA90051A7D5 /* SDWebImage.framework */; };
 		009FEDC016C6FD1B0051A7D5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009FEDBF16C6FD1B0051A7D5 /* ImageIO.framework */; };
 		009FEDC316C6FE580051A7D5 /* LocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 009FEDC216C6FE580051A7D5 /* LocationCell.m */; };
 		00A6869716D1D61200E24922 /* PullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A6869616D1D61200E24922 /* PullToRefreshView.m */; };
@@ -86,7 +85,6 @@
 		00698C9D17E14733002C4C9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StillOpen/Images.xcassets; sourceTree = "<group>"; };
 		008E0DA016DAE7E600E2C15F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		009FEDBB16C6FC7F0051A7D5 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = Resources/placeholder.png; sourceTree = "<group>"; };
-		009FEDBD16C6FCA90051A7D5 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
 		009FEDBF16C6FD1B0051A7D5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		009FEDC116C6FE580051A7D5 /* LocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCell.h; sourceTree = "<group>"; };
 		009FEDC216C6FE580051A7D5 /* LocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCell.m; sourceTree = "<group>"; };
@@ -169,7 +167,6 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				32B60A1111DD9F6E00DDA847 /* CoreLocation.framework in Frameworks */,
 				32DFBE6511E288B5008A1E87 /* MapKit.framework in Frameworks */,
-				009FEDBE16C6FCA90051A7D5 /* SDWebImage.framework in Frameworks */,
 				5F38CF98A3DC4C8B941A7B4B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +292,6 @@
 				009FEDBF16C6FD1B0051A7D5 /* ImageIO.framework */,
 				32B60A1011DD9F6E00DDA847 /* CoreLocation.framework */,
 				32DFBE6411E288B5008A1E87 /* MapKit.framework */,
-				009FEDBD16C6FCA90051A7D5 /* SDWebImage.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -501,7 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = StillOpen_Prefix.pch;
 				INFOPLIST_FILE = "StillOpen-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Open Nearby";
 				PROVISIONING_PROFILE = "03CA6650-CAC7-4DE5-BBEB-854D47A28E5F";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -527,7 +523,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = StillOpen_Prefix.pch;
 				INFOPLIST_FILE = "StillOpen-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Open Nearby";
 				PROVISIONING_PROFILE = "29F9F544-7095-4A8E-BE20-5D7B7D460C2E";
 				"PROVISIONING_PROFILE[sdk=*]" = "29F9F544-7095-4A8E-BE20-5D7B7D460C2E";
@@ -539,6 +535,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Medearis (96KPLGKX5U)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -555,6 +552,7 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Medearis (96KPLGKX5U)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;

@@ -182,7 +182,7 @@
         
         NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
         NSDateComponents *comps = [gregorian components:NSWeekdayCalendarUnit fromDate:[NSDate date]];
-        int weekday = [comps weekday] - 1;
+        int weekday = (int)[comps weekday] - 1;
         
         if(business[@"opening_hours"]) {
             if(business[@"opening_hours"][@"periods"]){

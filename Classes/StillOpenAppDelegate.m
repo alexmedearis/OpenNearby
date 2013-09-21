@@ -37,11 +37,11 @@
     
 	// Display
     [window makeKeyAndVisible];
-	
-    [Appirater appLaunched:YES];
+    
     [Appirater setDaysUntilPrompt:3];
     [Appirater setUsesUntilPrompt:3];
-    
+    [Appirater appLaunched:YES];
+
 	return YES;
 }
 
