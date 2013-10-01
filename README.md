@@ -9,13 +9,15 @@ Version
 Tech
 -----------
 Uses the Google Maps API
+Cocoapods for dependency management
 
 Installation
 --------------
 ```
 git clone [git-repo-url] stillopen
 cd stillopen
-open StillOpen.xcodeproj
+pod install
+open StillOpen.xcworkspace
 ```
 
 
