@@ -67,6 +67,11 @@
 		32DFBE5B11E28883008A1E87 /* PlacesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DFBE5A11E28883008A1E87 /* PlacesDetailViewController.m */; };
 		32DFBE6511E288B5008A1E87 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DFBE6411E288B5008A1E87 /* MapKit.framework */; };
 		5F38CF98A3DC4C8B941A7B4B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B63A81A1AF9349228DB0821F /* libPods.a */; };
+		D96C773918C5045700CC3270 /* Optimizely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C773818C5045700CC3270 /* Optimizely.framework */; };
+		D96C773B18C5049B00CC3270 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C773A18C5049B00CC3270 /* AdSupport.framework */; };
+		D96C773D18C504B000CC3270 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C773C18C504B000CC3270 /* libicucore.dylib */; };
+		D96C773F18C504B600CC3270 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C773E18C504B600CC3270 /* libsqlite3.dylib */; };
+		D96C774118C504BC00CC3270 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C774018C504BB00CC3270 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +153,11 @@
 		32DFBE6411E288B5008A1E87 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* StillOpen-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "StillOpen-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		B63A81A1AF9349228DB0821F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96C773818C5045700CC3270 /* Optimizely.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Optimizely.framework; sourceTree = "<group>"; };
+		D96C773A18C5049B00CC3270 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D96C773C18C504B000CC3270 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		D96C773E18C504B600CC3270 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D96C774018C504BB00CC3270 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		E9BE826E65A44170B13D0FCA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,17 +166,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D269FF175FFB9100A1E536 /* StoreKit.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				00D269FD175FFB8A00A1E536 /* SystemConfiguration.framework in Frameworks */,
+				D96C774118C504BC00CC3270 /* Security.framework in Frameworks */,
+				D96C773F18C504B600CC3270 /* libsqlite3.dylib in Frameworks */,
+				D96C773D18C504B000CC3270 /* libicucore.dylib in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				D96C773B18C5049B00CC3270 /* AdSupport.framework in Frameworks */,
+				00D269FF175FFB9100A1E536 /* StoreKit.framework in Frameworks */,
 				00D269FB175FFB7D00A1E536 /* CFNetwork.framework in Frameworks */,
 				008E0DA116DAE7E600E2C15F /* iAd.framework in Frameworks */,
 				00A6869E16D1D72800E24922 /* QuartzCore.framework in Frameworks */,
 				009FEDC016C6FD1B0051A7D5 /* ImageIO.framework in Frameworks */,
-				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				32B60A1111DD9F6E00DDA847 /* CoreLocation.framework in Frameworks */,
 				32DFBE6511E288B5008A1E87 /* MapKit.framework in Frameworks */,
+				D96C773918C5045700CC3270 /* Optimizely.framework in Frameworks */,
 				5F38CF98A3DC4C8B941A7B4B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +299,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D96C774018C504BB00CC3270 /* Security.framework */,
+				D96C773E18C504B600CC3270 /* libsqlite3.dylib */,
+				D96C773C18C504B000CC3270 /* libicucore.dylib */,
+				D96C773A18C5049B00CC3270 /* AdSupport.framework */,
+				D96C773818C5045700CC3270 /* Optimizely.framework */,
 				00D269FE175FFB9100A1E536 /* StoreKit.framework */,
 				00D269FC175FFB8A00A1E536 /* SystemConfiguration.framework */,
 				00D269FA175FFB7D00A1E536 /* CFNetwork.framework */,
@@ -308,6 +328,7 @@
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "StillOpen" */;
 			buildPhases = (
 				1D29FA10A16C406C9B136DF9 /* Check Pods Manifest.lock */,
+				D96C774218C5051400CC3270 /* ShellScript */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
@@ -329,6 +350,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = WE63C532W9;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "StillOpen" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -451,6 +477,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D96C774218C5051400CC3270 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python \"$SRCROOT/Optimizely/OptimizelyPrepareNibs.py\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -486,11 +525,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Alex Medearis (96KPLGKX5U)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					/Users/alexmedearis/Desktop/OpenNearby,
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -499,7 +540,7 @@
 				INFOPLIST_FILE = "StillOpen-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Open Nearby";
-				PROVISIONING_PROFILE = "03CA6650-CAC7-4DE5-BBEB-854D47A28E5F";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -513,19 +554,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alex Medearis";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					/Users/alexmedearis/Desktop/OpenNearby,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = StillOpen_Prefix.pch;
 				INFOPLIST_FILE = "StillOpen-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Open Nearby";
-				PROVISIONING_PROFILE = "29F9F544-7095-4A8E-BE20-5D7B7D460C2E";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=*]" = "29F9F544-7095-4A8E-BE20-5D7B7D460C2E";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
@@ -546,6 +588,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PROVISIONING_PROFILE = "8848D772-0BD1-4A1A-8367-BB2A90E1261A";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -564,6 +607,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PROVISIONING_PROFILE = "8848D772-0BD1-4A1A-8367-BB2A90E1261A";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

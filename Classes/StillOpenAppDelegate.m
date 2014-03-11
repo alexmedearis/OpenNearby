@@ -10,6 +10,7 @@
 #import "PlacesListViewController.h"
 #import "Appirater.h"
 #import "RotationNavigationController.h"
+#import <Optimizely/Optimizely.h>
 
 @implementation StillOpenAppDelegate
 
@@ -20,7 +21,12 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-	
+#ifdef DEBUG
+#endif
+    [Optimizely enableEditor];
+    [Optimizely startOptimizelyWithAPIToken:@"AAMvByMAlhTrXyet7bNUd7UpLX4FXO8m~5174026842406912" launchOptions:launchOptions];
+
+    
     [Appirater setAppId:@"604952162"];
     
 	// Create the nav controller
@@ -31,6 +37,7 @@
 	PlacesListViewController * placesList = [[PlacesListViewController alloc] initWithNibName:@"PlacesList" bundle:[NSBundle mainBundle]];
 	[mainNavController pushViewController:placesList animated:NO];
     self.placesList = placesList;
+    
     
     [self.window setRootViewController:mainNavController];
 	self.mainNavController = mainNavController;
