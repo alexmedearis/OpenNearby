@@ -329,13 +329,12 @@ class PBXFile(object):
 
       return prefix_header_path
 
-if __name__ == '__main__':
-
+def main(project_path,project_id):
   print_cyan('\n=========================================')
   print_cyan('==== Optimizely iOS SDK Installation ====')
   print_cyan('=========================================\n')
   print_magenta('Please click on "Project Code" in your Optimizely project dashboard to find your Project ID.')
-  project_id = valid_input('What is your Project ID?\n', '', v('^\d+$'))
+  project_id = project_id or valid_input('What is your Project ID?\n', '', v('^\d+$'))
 
   print_ok('Installing Optimizely Framework...')
 
@@ -345,10 +344,7 @@ if __name__ == '__main__':
   if not os.path.exists(SCRIPTS_DIR):
     die('Scripts directory not found at %s.' % SCRIPTS_DIR)
 
-  if len(sys.argv) == 2:
-    project_path = sys.argv[1]
-  else:
-    project_path = valid_input('Path of .xcodeproj file: ')
+  project_path = project_path or valid_input('Path of .xcodeproj file: ')
 
   project_path = os.path.abspath(os.path.expanduser(project_path))
   if not os.path.exists(project_path):
@@ -462,3 +458,11 @@ if __name__ == '__main__':
 
   # TODO: if the project is under git, require a clean stage before starting,
   # and add the new files when done.
+
+if __name__ == '__main__':
+  project_path = None
+
+  if len(sys.argv) == 2:
+    project_path = sys.argv[1]
+
+  main(project_path,None)

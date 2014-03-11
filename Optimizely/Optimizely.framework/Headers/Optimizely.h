@@ -346,4 +346,7 @@ typedef void (^OptimizelySuccessBlock)(BOOL success, NSError *error);
  */
 @property (nonatomic,strong) NSString *userId;
 
+/* Toggle for Logging in console */
+@property (nonatomic) BOOL verboseLogging;
+
 @end

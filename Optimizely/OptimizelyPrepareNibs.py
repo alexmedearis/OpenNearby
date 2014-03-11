@@ -22,12 +22,10 @@ def get_storyboard_paths(project_dir):
 
 def get_xib_paths(project_dir):
   xibs = []
-  print "hellooo"
   for root, dirs, files in os.walk(project_dir):
     matches = fnmatch.filter(files, "*.xib")
     xibs.extend(full_paths(root, matches))
 
-  print xibs
   return xibs
 
 def generate_optimizely_id(path, cls, view_id):
@@ -163,8 +161,6 @@ class Xib(object):
       'IBUITextField',
       'IBUITextView',
       'IBUIView',
-      'imageView',
-      'label'
       ]
 
   def get_elements(self, tag='object', root=None, **attrs):
@@ -209,8 +205,6 @@ class Xib(object):
     self.views = filter(
         lambda obj: obj.getAttribute('class') in Xib.view_classes,
         objects)
-
-    print self.views
 
     # Get all object ids
     for record in els(**{ 'class': 'IBObjectRecord' }):
@@ -380,4 +374,4 @@ if __name__ == "__main__":
   print "Looking for all xib files in %s..." % project_dir
   xibs = get_xib_paths(project_dir)
   for path in xibs:
-    xib = Storyboard(path)
+    xib = Xib(path)

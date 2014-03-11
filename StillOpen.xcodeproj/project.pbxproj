@@ -67,7 +67,7 @@
 		32DFBE5B11E28883008A1E87 /* PlacesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DFBE5A11E28883008A1E87 /* PlacesDetailViewController.m */; };
 		32DFBE6511E288B5008A1E87 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DFBE6411E288B5008A1E87 /* MapKit.framework */; };
 		5F38CF98A3DC4C8B941A7B4B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B63A81A1AF9349228DB0821F /* libPods.a */; };
-		D96C773918C5045700CC3270 /* Optimizely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C773818C5045700CC3270 /* Optimizely.framework */; };
+		D932301A18CF974A00F05758 /* Optimizely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D932301918CF974A00F05758 /* Optimizely.framework */; };
 		D96C773B18C5049B00CC3270 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C773A18C5049B00CC3270 /* AdSupport.framework */; };
 		D96C773D18C504B000CC3270 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C773C18C504B000CC3270 /* libicucore.dylib */; };
 		D96C773F18C504B600CC3270 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C773E18C504B600CC3270 /* libsqlite3.dylib */; };
@@ -153,7 +153,7 @@
 		32DFBE6411E288B5008A1E87 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* StillOpen-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "StillOpen-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		B63A81A1AF9349228DB0821F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D96C773818C5045700CC3270 /* Optimizely.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Optimizely.framework; sourceTree = "<group>"; };
+		D932301918CF974A00F05758 /* Optimizely.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Optimizely.framework; path = Optimizely/Optimizely.framework; sourceTree = "<group>"; };
 		D96C773A18C5049B00CC3270 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		D96C773C18C504B000CC3270 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		D96C773E18C504B600CC3270 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -176,12 +176,12 @@
 				00D269FF175FFB9100A1E536 /* StoreKit.framework in Frameworks */,
 				00D269FB175FFB7D00A1E536 /* CFNetwork.framework in Frameworks */,
 				008E0DA116DAE7E600E2C15F /* iAd.framework in Frameworks */,
+				D932301A18CF974A00F05758 /* Optimizely.framework in Frameworks */,
 				00A6869E16D1D72800E24922 /* QuartzCore.framework in Frameworks */,
 				009FEDC016C6FD1B0051A7D5 /* ImageIO.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				32B60A1111DD9F6E00DDA847 /* CoreLocation.framework in Frameworks */,
 				32DFBE6511E288B5008A1E87 /* MapKit.framework in Frameworks */,
-				D96C773918C5045700CC3270 /* Optimizely.framework in Frameworks */,
 				5F38CF98A3DC4C8B941A7B4B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,11 +299,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D932301918CF974A00F05758 /* Optimizely.framework */,
 				D96C774018C504BB00CC3270 /* Security.framework */,
 				D96C773E18C504B600CC3270 /* libsqlite3.dylib */,
 				D96C773C18C504B000CC3270 /* libicucore.dylib */,
 				D96C773A18C5049B00CC3270 /* AdSupport.framework */,
-				D96C773818C5045700CC3270 /* Optimizely.framework */,
 				00D269FE175FFB9100A1E536 /* StoreKit.framework */,
 				00D269FC175FFB8A00A1E536 /* SystemConfiguration.framework */,
 				00D269FA175FFB7D00A1E536 /* CFNetwork.framework */,
@@ -532,6 +532,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					/Users/alexmedearis/Desktop/OpenNearby,
+					/Users/alexmedearis/Desktop/OpenNearby/Optimizely,
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -561,6 +562,7 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					/Users/alexmedearis/Desktop/OpenNearby,
+					/Users/alexmedearis/Desktop/OpenNearby/Optimizely,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = StillOpen_Prefix.pch;
