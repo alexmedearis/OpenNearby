@@ -1,67 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<?xml version="1.0" encoding="utf-8"?><document propertyAccessControl="none" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" toolsVersion="4510" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useAutolayout="YES" version="3.0">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlacesListViewController">
+        <placeholder customClass="PlacesListViewController" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
             <connections>
-                <outlet property="adBanner" destination="21" id="23"/>
-                <outlet property="tView" destination="3" id="5"/>
-                <outlet property="view" destination="1" id="7"/>
+                <outlet destination="21" id="23" property="adBanner"/>
+                <outlet destination="3" id="5" property="tView"/>
+                <outlet destination="1" id="7" property="view"/>
             </connections>
         </placeholder>
-        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
         <view contentMode="scaleToFill" id="1">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+            <rect height="480" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
             <subviews>
-                <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="3">
-                    <rect key="frame" x="12" y="34" width="296" height="388"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <tableView alwaysBounceVertical="YES" clipsSubviews="YES" contentMode="scaleToFill" id="3" opaque="NO" rowHeight="44" sectionFooterHeight="22" sectionHeaderHeight="22" separatorStyle="default" style="plain" translatesAutoresizingMaskIntoConstraints="NO">
+                    <rect height="388" key="frame" width="296" x="12" y="34"/>
+                    <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
                     <connections>
-                        <outlet property="dataSource" destination="-1" id="6"/>
-                        <outlet property="delegate" destination="-1" id="8"/>
+                        <outlet destination="-1" id="6" property="dataSource"/>
+                        <outlet destination="-1" id="8" property="delegate"/>
                     </connections>
-                </tableView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The following establishments are still open:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20" customClass="CustomFontLabel">
-                    <rect key="frame" x="12" y="4" width="296" height="27"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesList-tableView-3"/></userDefinedRuntimeAttributes></tableView>
+                <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" customClass="CustomFontLabel" id="20" lineBreakMode="tailTruncation" opaque="NO" text="The following establishments are still open:" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO">
+                    <rect height="27" key="frame" width="296" x="12" y="4"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="27" id="nbm-vf-ZHU"/>
+                        <constraint constant="27" firstAttribute="height" id="nbm-vf-ZHU"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="16"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription family="Noteworthy" key="fontDescription" name="Noteworthy-Light" pointSize="16"/>
+                    <color alpha="1" colorSpace="calibratedWhite" key="textColor" white="1"/>
                     <nil key="highlightedColor"/>
-                </label>
-                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21" customClass="ADBannerView">
-                    <rect key="frame" x="0.0" y="430" width="320" height="50"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesList-label-20"/></userDefinedRuntimeAttributes></label>
+                <view contentMode="scaleToFill" customClass="ADBannerView" hidden="YES" id="21" translatesAutoresizingMaskIntoConstraints="NO">
+                    <rect height="50" key="frame" width="320" x="0.0" y="430"/>
+                    <autoresizingMask flexibleMinY="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <color alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" key="backgroundColor" white="1"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="50" id="FNe-lE-cOt"/>
+                        <constraint constant="50" firstAttribute="height" id="FNe-lE-cOt"/>
                     </constraints>
                     <connections>
-                        <outlet property="delegate" destination="-1" id="22"/>
+                        <outlet destination="-1" id="22" property="delegate"/>
                     </connections>
-                </view>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesList-view-21"/></userDefinedRuntimeAttributes></view>
             </subviews>
-            <color key="backgroundColor" red="0.33774560980000001" green="0.41170679599999999" blue="0.59693877549999996" alpha="1" colorSpace="calibratedRGB"/>
+            <color alpha="1" blue="0.59693877549999996" colorSpace="calibratedRGB" green="0.41170679599999999" key="backgroundColor" red="0.33774560980000001"/>
             <constraints>
-                <constraint firstItem="21" firstAttribute="top" secondItem="3" secondAttribute="bottom" constant="8" id="0Ef-bz-iOr"/>
-                <constraint firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="12" id="9pS-Bu-f9b"/>
-                <constraint firstAttribute="trailing" secondItem="21" secondAttribute="trailing" id="Id6-6l-NKl"/>
-                <constraint firstAttribute="trailing" secondItem="3" secondAttribute="trailing" constant="12" id="S9p-wU-xX9"/>
-                <constraint firstItem="20" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="12" id="Swb-dS-cYj"/>
-                <constraint firstItem="20" firstAttribute="top" secondItem="1" secondAttribute="top" constant="4" id="U44-wU-2jp"/>
-                <constraint firstAttribute="bottom" secondItem="21" secondAttribute="bottom" id="Yh3-X8-0xC"/>
-                <constraint firstItem="21" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="av1-nd-CcF"/>
-                <constraint firstItem="3" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="12" id="fMb-ua-kYx"/>
-                <constraint firstItem="3" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="3" id="iqB-0n-egk"/>
+                <constraint constant="8" firstAttribute="top" firstItem="21" id="0Ef-bz-iOr" secondAttribute="bottom" secondItem="3"/>
+                <constraint constant="12" firstAttribute="trailing" id="9pS-Bu-f9b" secondAttribute="trailing" secondItem="20"/>
+                <constraint firstAttribute="trailing" id="Id6-6l-NKl" secondAttribute="trailing" secondItem="21"/>
+                <constraint constant="12" firstAttribute="trailing" id="S9p-wU-xX9" secondAttribute="trailing" secondItem="3"/>
+                <constraint constant="12" firstAttribute="leading" firstItem="20" id="Swb-dS-cYj" secondAttribute="leading" secondItem="1"/>
+                <constraint constant="4" firstAttribute="top" firstItem="20" id="U44-wU-2jp" secondAttribute="top" secondItem="1"/>
+                <constraint firstAttribute="bottom" id="Yh3-X8-0xC" secondAttribute="bottom" secondItem="21"/>
+                <constraint firstAttribute="leading" firstItem="21" id="av1-nd-CcF" secondAttribute="leading" secondItem="1"/>
+                <constraint constant="12" firstAttribute="leading" firstItem="3" id="fMb-ua-kYx" secondAttribute="leading" secondItem="1"/>
+                <constraint constant="3" firstAttribute="top" firstItem="3" id="iqB-0n-egk" secondAttribute="bottom" secondItem="20"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-        </view>
+        <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesList-view-1"/></userDefinedRuntimeAttributes></view>
     </objects>
 </document>

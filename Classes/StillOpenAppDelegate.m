@@ -10,6 +10,7 @@
 #import "PlacesListViewController.h"
 #import "Appirater.h"
 #import "RotationNavigationController.h"
+#import <Optimizely/Optimizely.h>
 
 @implementation StillOpenAppDelegate
 

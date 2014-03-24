@@ -1,116 +1,115 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<?xml version="1.0" encoding="utf-8"?><document propertyAccessControl="none" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" toolsVersion="4510" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlacesDetailViewController">
+        <placeholder customClass="PlacesDetailViewController" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
             <connections>
-                <outlet property="address" destination="11" id="20"/>
-                <outlet property="call" destination="12" id="16"/>
-                <outlet property="directions" destination="26" id="39"/>
-                <outlet property="disclosureView" destination="35" id="41"/>
-                <outlet property="hours" destination="13" id="32"/>
-                <outlet property="locationImg" destination="5" id="22"/>
-                <outlet property="mView" destination="3" id="6"/>
-                <outlet property="name" destination="9" id="10"/>
-                <outlet property="price" destination="33" id="34"/>
-                <outlet property="starRatings" destination="30" id="31"/>
-                <outlet property="view" destination="1" id="24"/>
+                <outlet destination="11" id="20" property="address"/>
+                <outlet destination="12" id="16" property="call"/>
+                <outlet destination="26" id="39" property="directions"/>
+                <outlet destination="35" id="41" property="disclosureView"/>
+                <outlet destination="13" id="32" property="hours"/>
+                <outlet destination="5" id="22" property="locationImg"/>
+                <outlet destination="3" id="6" property="mView"/>
+                <outlet destination="9" id="10" property="name"/>
+                <outlet destination="33" id="34" property="price"/>
+                <outlet destination="30" id="31" property="starRatings"/>
+                <outlet destination="1" id="24" property="view"/>
             </connections>
         </placeholder>
-        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
         <view contentMode="scaleToFill" id="1">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <rect height="480" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
             <subviews>
-                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="3">
-                    <rect key="frame" x="0.0" y="202" width="320" height="278"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <mapView clipsSubviews="YES" contentMode="scaleToFill" id="3" mapType="standard" multipleTouchEnabled="YES">
+                    <rect height="278" key="frame" width="320" x="0.0" y="202"/>
+                    <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
                 </mapView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4" customClass="RoundedCornerButton">
-                    <rect key="frame" x="10" y="4" width="300" height="103"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" customClass="RoundedCornerButton" id="4" lineBreakMode="middleTruncation" opaque="NO">
+                    <rect height="103" key="frame" width="300" x="10" y="4"/>
+                    <autoresizingMask flexibleMaxY="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <fontDescription family="Helvetica" key="fontDescription" name="Helvetica-Bold" pointSize="15"/>
                     <state key="normal">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
                     </state>
                     <connections>
-                        <action selector="mainClicked:" destination="-1" eventType="touchUpInside" id="18"/>
+                        <action destination="-1" eventType="touchUpInside" id="18" selector="mainClicked:"/>
                     </connections>
-                </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="5">
-                    <rect key="frame" x="20" y="16" width="59" height="59"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="9" customClass="CustomFontLabel">
-                    <rect key="frame" x="120" y="19" width="150" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="16"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-button-4"/></userDefinedRuntimeAttributes></button>
+                <imageView contentMode="scaleAspectFit" id="5" userInteractionEnabled="NO">
+                    <rect height="59" key="frame" width="59" x="20" y="16"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-imageView-5"/></userDefinedRuntimeAttributes></imageView>
+                <label clipsSubviews="YES" contentMode="left" customClass="CustomFontLabel" id="9" lineBreakMode="tailTruncation" minimumFontSize="10" opaque="NO" text="" userInteractionEnabled="NO">
+                    <rect height="21" key="frame" width="150" x="120" y="19"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <fontDescription family="Noteworthy" key="fontDescription" name="Noteworthy-Light" pointSize="16"/>
                     <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="11" customClass="CustomFontLabel">
-                    <rect key="frame" x="120" y="39" width="150" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-label-9"/></userDefinedRuntimeAttributes></label>
+                <label clipsSubviews="YES" contentMode="left" customClass="CustomFontLabel" id="11" lineBreakMode="tailTruncation" minimumFontSize="10" opaque="NO" text="" userInteractionEnabled="NO">
+                    <rect height="21" key="frame" width="150" x="120" y="39"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
                     <accessibility key="accessibilityConfiguration" label="Address"/>
-                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="16"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription family="Noteworthy" key="fontDescription" name="Noteworthy-Light" pointSize="16"/>
+                    <color cocoaTouchSystemColor="darkTextColor" key="textColor"/>
                     <nil key="highlightedColor"/>
-                </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="12" customClass="RoundedCornerButton">
-                    <rect key="frame" x="10" y="114" width="300" height="37"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-label-11"/></userDefinedRuntimeAttributes></label>
+                <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" customClass="RoundedCornerButton" id="12" lineBreakMode="middleTruncation" opaque="NO">
+                    <rect height="37" key="frame" width="300" x="10" y="114"/>
+                    <autoresizingMask flexibleMaxY="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <fontDescription family="Helvetica" key="fontDescription" name="Helvetica-Bold" pointSize="15"/>
                     <state key="normal">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
                     </state>
                     <connections>
-                        <action selector="callClicked:" destination="-1" eventType="touchUpInside" id="17"/>
+                        <action destination="-1" eventType="touchUpInside" id="17" selector="callClicked:"/>
                     </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="26" customClass="RoundedCornerButton">
-                    <rect key="frame" x="10" y="158" width="300" height="37"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-button-12"/></userDefinedRuntimeAttributes></button>
+                <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" customClass="RoundedCornerButton" id="26" lineBreakMode="middleTruncation" opaque="NO">
+                    <rect height="37" key="frame" width="300" x="10" y="158"/>
+                    <autoresizingMask flexibleMaxY="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <fontDescription family="Helvetica" key="fontDescription" name="Helvetica-Bold" pointSize="15"/>
                     <state key="normal" title="Directions">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
                     </state>
                     <connections>
-                        <action selector="directionsClicked:" destination="-1" eventType="touchUpInside" id="28"/>
+                        <action destination="-1" eventType="touchUpInside" id="28" selector="directionsClicked:"/>
                     </connections>
-                </button>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="13" customClass="CustomFontLabel">
-                    <rect key="frame" x="120" y="58" width="150" height="20"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="16"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-button-26"/></userDefinedRuntimeAttributes></button>
+                <label clipsSubviews="YES" contentMode="left" customClass="CustomFontLabel" id="13" lineBreakMode="tailTruncation" minimumFontSize="10" opaque="NO" text="" userInteractionEnabled="NO">
+                    <rect height="20" key="frame" width="150" x="120" y="58"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <fontDescription family="Noteworthy" key="fontDescription" name="Noteworthy-Light" pointSize="16"/>
+                    <color cocoaTouchSystemColor="darkTextColor" key="textColor"/>
                     <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="33" customClass="CustomFontLabel">
-                    <rect key="frame" x="118" y="76" width="150" height="28"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="16"/>
-                    <color key="textColor" red="0.0" green="0.49472513689999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-label-13"/></userDefinedRuntimeAttributes></label>
+                <label clipsSubviews="YES" contentMode="left" customClass="CustomFontLabel" id="33" lineBreakMode="tailTruncation" minimumFontSize="10" opaque="NO" text="" userInteractionEnabled="NO">
+                    <rect height="28" key="frame" width="150" x="118" y="76"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <fontDescription family="Noteworthy" key="fontDescription" name="Noteworthy-Light" pointSize="16"/>
+                    <color alpha="1" blue="0.0" colorSpace="calibratedRGB" green="0.49472513689999997" key="textColor" red="0.0"/>
                     <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="  >" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="35">
-                    <rect key="frame" x="268" y="39" width="42" height="31"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-label-33"/></userDefinedRuntimeAttributes></label>
+                <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" id="35" lineBreakMode="tailTruncation" opaque="NO" text="  &gt;" userInteractionEnabled="NO">
+                    <rect height="31" key="frame" width="42" x="268" y="39"/>
+                    <autoresizingMask flexibleMaxY="YES" flexibleMinX="YES" key="autoresizingMask"/>
                     <accessibility key="accessibilityConfiguration">
-                        <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                        <accessibilityTraits key="traits" none="YES" notEnabled="YES" staticText="YES"/>
                     </accessibility>
-                    <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
-                    <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription family="Chalkboard SE" key="fontDescription" name="ChalkboardSE-Bold" pointSize="21"/>
+                    <color alpha="1" colorSpace="calibratedWhite" key="textColor" white="0.5"/>
                     <nil key="highlightedColor"/>
-                </label>
-                <view contentMode="scaleToFill" id="30" customClass="DYRateView">
-                    <rect key="frame" x="20" y="78" width="96" height="26"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                </view>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-label-35"/></userDefinedRuntimeAttributes></label>
+                <view contentMode="scaleToFill" customClass="DYRateView" id="30">
+                    <rect height="26" key="frame" width="96" x="20" y="78"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <color alpha="0.0" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+                <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-view-30"/></userDefinedRuntimeAttributes></view>
             </subviews>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-        </view>
+        <userDefinedRuntimeAttributes><userDefinedRuntimeAttribute keyPath="optimizelyId" type="string" value="_PlacesDetail-view-1"/></userDefinedRuntimeAttributes></view>
     </objects>
 </document>

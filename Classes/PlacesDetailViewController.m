@@ -63,11 +63,11 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:[self getUrl:self.business]];
 	self.connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
     [self.HUD show:YES];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
+
 }
 
 - (void)updateUI{
-	self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
-    
 	[self.name setText:self.business.name];
 	[self.address setText:self.business.address];
     [self.hours setText:self.business.hours];
