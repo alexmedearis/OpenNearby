@@ -72,7 +72,8 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-   [self.delegate errorOccurred];
+    for (id key in error.userInfo) {
+    }	[self.delegate errorOccurred];
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {

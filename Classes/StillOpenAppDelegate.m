@@ -22,6 +22,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
+    [Optimizely enableEditor];
+    [Optimizely startOptimizelyWithAPIToken:@"AAMv5AoAacciwdYb3heeoUIdRAAV_3gv~715814447" launchOptions:launchOptions];
+    
     [Appirater setAppId:@"604952162"];
     
 	// Create the nav controller
