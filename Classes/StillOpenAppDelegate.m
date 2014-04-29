@@ -11,6 +11,7 @@
 #import "Appirater.h"
 #import "RotationNavigationController.h"
 #import <Optimizely/Optimizely.h>
+#import <FlurrySDK/Flurry.h>
 
 @implementation StillOpenAppDelegate
 
@@ -22,7 +23,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
-    [Optimizely enableEditor];
     [Optimizely startOptimizelyWithAPIToken:@"AAMv5AoAacciwdYb3heeoUIdRAAV_3gv~715814447" launchOptions:launchOptions];
     
     [Appirater setAppId:@"604952162"];
@@ -46,6 +46,12 @@
     [Appirater setUsesUntilPrompt:3];
     [Appirater appLaunched:YES];
 
+    //note: iOS only allows one crash reporting tool per app; if using another, set to: NO
+    [Flurry setCrashReportingEnabled:YES];
+    
+    // Replace YOUR_API_KEY with the api key in the downloaded package
+    [Flurry startSession:@"RZ89K9F4DDNKNQNNV37R"];
+    
 	return YES;
 }
 

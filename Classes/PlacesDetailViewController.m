@@ -10,6 +10,7 @@
 #import "DataProvider.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "DisplayWebpageViewController.h"
+#import <FlurrySDK/Flurry.h>
 
 @implementation PlacesDetailViewController
 
@@ -64,7 +65,8 @@
 	self.connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
     [self.HUD show:YES];
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]];
-
+    
+    [Flurry logEvent:@"visitedDetailScreen"];
 }
 
 - (void)updateUI{

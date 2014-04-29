@@ -1,15 +1,19 @@
 PODS:
   - Appirater (1.0.5)
   - DYRateView (0.0.2)
+  - FlurrySDK (4.4.0):
+    - FlurrySDK/FlurrySDK
+  - FlurrySDK/FlurrySDK (4.4.0)
   - MBProgressHUD (0.8)
-  - Optimizely-iOS-SDK (0.4.0)
-  - SDWebImage (3.4):
+  - Optimizely-iOS-SDK (0.4.37)
+  - SDWebImage (3.6):
     - SDWebImage/Core
-  - SDWebImage/Core (3.4)
+  - SDWebImage/Core (3.6)
 
 DEPENDENCIES:
   - Appirater (= 1.0.5)
   - DYRateView
+  - FlurrySDK
   - MBProgressHUD
   - Optimizely-iOS-SDK (from `git@github.com:optimizely/Optimizely-iOS-SDK.git`)
   - SDWebImage
@@ -20,9 +24,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Appirater: 5addfe3fac0aa85209b553f894b6b0533152786f
-  DYRateView: ed57ab9f1ff4298bdd808591ffa654df2d43c7da
+  DYRateView: 01ad4d1d206056563a2d69594e2e30307c9beb42
+  FlurrySDK: 2cd8f2ce2383ca152c5d96fa34cb9ef29706feda
   MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
-  Optimizely-iOS-SDK: 6421f3347412e086ba8abe7fbedbc57894a94f51
-  SDWebImage: 366188f04c019bfd712d45e3b36aa52070f4abd8
+  Optimizely-iOS-SDK: f633073eddb775d6cb8b67ef7c34e1e0e0497370
+  SDWebImage: 7eb273e54ca8a2e506ad9bd5e80c35b2a4d7c95e
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.32.1

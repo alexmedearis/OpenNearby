@@ -12,6 +12,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "PlacesDetailViewController.h"
 #import "LocationCell.h"
+#import <FlurrySDK/Flurry.h>
 
 @implementation PlacesListViewController
 
@@ -69,8 +70,14 @@
         self.title = @"";
 
     }
+    
+    [Flurry logEvent:@"visitedMainScreen"];
 
     [self reload];
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    
 }
 
 - (void) reload
