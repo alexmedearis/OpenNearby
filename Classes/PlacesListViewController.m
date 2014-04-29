@@ -13,6 +13,7 @@
 #import "PlacesDetailViewController.h"
 #import "LocationCell.h"
 #import <FlurrySDK/Flurry.h>
+#import <Optimizely/Optimizely.h>
 
 @implementation PlacesListViewController
 
@@ -77,7 +78,17 @@
 }
 
 - (void) viewWillAppear:(BOOL)animated {
-    
+    [[Optimizely sharedInstance] codeTest:@"test" withBlocks:@{@"one" : ^{
+        [Flurry logEvent:@"one"];
+    },
+                                                               @"two" : ^{
+        [Flurry logEvent:@"two"];
+        
+    },
+                                                               
+                                                               }defaultBlock:^{
+                                                                   [Flurry logEvent:@"three"];
+                                                               }];
 }
 
 - (void) reload
